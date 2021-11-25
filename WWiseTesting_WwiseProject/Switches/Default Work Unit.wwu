@@ -3,10 +3,10 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Foorsteps" ID="{ECCCAEB8-11F0-4404-B8D4-6ED0FBCAF85E}">
+				<SwitchGroup Name="Footsteps" ID="{3B8624E6-BD12-4E01-8C98-E5451835F1FC}">
 					<ChildrenList>
-						<Switch Name="Dirt" ID="{497F5F8C-1A52-4BEB-84BA-D87BD962ACB8}"/>
-						<Switch Name="Water" ID="{BBDC9B2A-9E23-47DB-9597-CCCF72346624}"/>
+						<Switch Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
+						<Switch Name="Water" ID="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

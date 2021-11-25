@@ -44,13 +44,13 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
 						</Reference>
 						<Reference Name="DefaultSwitchOrState">
-							<ObjectRef Name="Dirt" ID="{497F5F8C-1A52-4BEB-84BA-D87BD962ACB8}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
+							<ObjectRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
-							<ObjectRef Name="Foorsteps" ID="{ECCCAEB8-11F0-4404-B8D4-6ED0FBCAF85E}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
+							<ObjectRef Name="Footsteps" ID="{3B8624E6-BD12-4E01-8C98-E5451835F1FC}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -108,8 +108,10 @@
 										<AudioFileSource Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{8E2CD522-2A75-413D-9475-50FF2E60EFAD}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.074714899713467"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.110282254196643"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.201503820439351"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.582108393285372"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</AudioFile>
@@ -162,6 +164,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{643896FB-33D6-4DFA-9203-5C2BAA024A75}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.036643345323741"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.036643345323741"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.02378603117506"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.292503896882494"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</AudioFile>
 											<MediaIDList>
@@ -334,13 +343,13 @@
 						</GroupingBehaviorList>
 						<GroupingList>
 							<Grouping>
-								<SwitchRef Name="Water" ID="{BBDC9B2A-9E23-47DB-9597-CCCF72346624}"/>
+								<SwitchRef Name="Water" ID="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}"/>
 								<ItemList>
 									<ItemRef Name="Footstep Water" ID="{02F64179-5808-4A26-A8AE-159B95E8ED73}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="Dirt" ID="{497F5F8C-1A52-4BEB-84BA-D87BD962ACB8}"/>
+								<SwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
 								<ItemList>
 									<ItemRef Name="footsteps Dirt" ID="{9155B04D-C64E-4889-9CE2-643F8FA80D15}"/>
 								</ItemList>
@@ -348,6 +357,216 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Folder Name="landing" ID="{0E56F3F2-982E-4B9B-B85C-4FB869C1C411}" ShortID="658768126">
+					<ChildrenList>
+						<SwitchContainer Name="step1" ID="{139735C5-9222-4D6C-B6E0-841D40595C9A}" ShortID="428613213">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps" ID="{3B8624E6-BD12-4E01-8C98-E5451835F1FC}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{26BBB002-10EF-4CB9-9882-AD480AD0AE92}" ShortID="255284744">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{9FD5CA44-3A4B-4895-BA5E-67100B357069}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.074714899713467"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0716266187050359"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.217420846818248"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.57756067146283"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="472837230"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{9FD5CA44-3A4B-4895-BA5E-67100B357069}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="water step4" ID="{35248735-4B20-4A99-A8C3-AD93EBBA6317}" ShortID="565052146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="water step4" ID="{69C1CC56-2CF7-48D9-BC81-E47CD0E9CE33}">
+											<Language>SFX</Language>
+											<AudioFile>Water\water step4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="80412620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="water step4" ID="{69C1CC56-2CF7-48D9-BC81-E47CD0E9CE33}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{26BBB002-10EF-4CB9-9882-AD480AD0AE92}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="water step4" ID="{35248735-4B20-4A99-A8C3-AD93EBBA6317}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Water" ID="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}"/>
+										<ItemList>
+											<ItemRef Name="water step4" ID="{35248735-4B20-4A99-A8C3-AD93EBBA6317}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
+										<ItemList>
+											<ItemRef Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{26BBB002-10EF-4CB9-9882-AD480AD0AE92}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="step2" ID="{995BFB9E-A876-4CE6-8FBF-038089FE2F90}" ShortID="363998286">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps" ID="{3B8624E6-BD12-4E01-8C98-E5451835F1FC}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{7980FB7B-3DF1-44CA-A7B7-404AB151F6A7}" ShortID="978424857">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{BBD16603-FF1E-41C3-9F11-822F630F8786}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0327861510791367"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0495006594724221"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0315004196642686"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.320789988009592"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289688904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{BBD16603-FF1E-41C3-9F11-822F630F8786}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="water step2" ID="{D7CB0F73-6A85-4B27-BD2A-B87DDD4C112D}" ShortID="904338942">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="water step2" ID="{6B71838C-5428-43BF-8FBB-70F6FDA73E44}">
+											<Language>SFX</Language>
+											<AudioFile>Water\water step2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="960585968"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="water step2" ID="{6B71838C-5428-43BF-8FBB-70F6FDA73E44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="water step2" ID="{D7CB0F73-6A85-4B27-BD2A-B87DDD4C112D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{7980FB7B-3DF1-44CA-A7B7-404AB151F6A7}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Water" ID="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}"/>
+										<ItemList>
+											<ItemRef Name="water step2" ID="{D7CB0F73-6A85-4B27-BD2A-B87DDD4C112D}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
+										<ItemList>
+											<ItemRef Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{7980FB7B-3DF1-44CA-A7B7-404AB151F6A7}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

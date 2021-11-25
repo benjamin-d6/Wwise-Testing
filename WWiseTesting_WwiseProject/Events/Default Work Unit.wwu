@@ -14,17 +14,46 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}">
+				<Folder Name="Landing" ID="{876675B3-D8A1-42CB-8FE5-06B5C6A5E10A}" ShortID="437697235">
 					<ChildrenList>
-						<Action Name="" ID="{07A289E4-562D-4598-BD4C-07343D7995A5}" ShortID="204393050">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{843B17C0-B5FB-470A-A269-6C9E2C336C32}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Landing" ID="{2017FED6-CC5B-49D7-9833-984F792344B7}">
+							<ChildrenList>
+								<Action Name="" ID="{CCEA9A3A-A51D-48DD-B5DE-3A83D231CDFB}" ShortID="616403217">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="step1" ID="{139735C5-9222-4D6C-B6E0-841D40595C9A}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{29D96609-942D-4689-ADDE-2F1D9327D9ED}" ShortID="124420889">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.12"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="step2" ID="{995BFB9E-A876-4CE6-8FBF-038089FE2F90}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Walking" ID="{27597D73-0EE2-4865-9B39-3792175576D4}" ShortID="675352891">
+					<ChildrenList>
+						<Event Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}">
+							<ChildrenList>
+								<Action Name="" ID="{8FDB69B9-7C45-4428-844F-1198459C0547}" ShortID="651727247">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{843B17C0-B5FB-470A-A269-6C9E2C336C32}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

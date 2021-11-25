@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{9E891220-C509-4EBB-9DC5-8CED7400F97D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Landing" ID="{2017FED6-CC5B-49D7-9833-984F792344B7}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Solving_a_puzzle" ID="{E27864DA-B7A7-4F95-936C-6D4E8C7C10EC}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

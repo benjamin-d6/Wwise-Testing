@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fcbd133c54d0d74fb307263eda60a6c5
     GuidInternal: 
-    m_lastTime: -8585638359459565140
+    m_lastTime: -8585637700989239704
     List:
     - name: Main
       guid: 2012899e09c5bb4e9dc58ced7400f97d
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 523560ac785afb42872f6c8eb5dfef57
     GuidInternal: 
-    m_lastTime: -8585638359459634579
+    m_lastTime: -8585637700989165304
     List:
+    - name: Landing
+      guid: b3756687a1d8cb428fe506b5c6a5e10a
+      id: 2548270042
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Landing
+        ObjectType: 4
+        guid: b3756687a1d8cb428fe506b5c6a5e10a
+      Path: Events\Default Work Unit\Landing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Footsteps
       guid: c493caf5a3998f4e84d7e4568b12ea37
       id: 3854155799
@@ -106,13 +123,36 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Walking
+        ObjectType: 4
+        guid: 737d5927e20e65489b393792175576d4
       - ElementName: Play_Footsteps
         ObjectType: 3
         guid: c493caf5a3998f4e84d7e4568b12ea37
-      Path: Events\Default Work Unit\Play_Footsteps
+      Path: Events\Default Work Unit\Walking\Play_Footsteps
       maxAttenuation: 0
-      maxDuration: 0.680113
+      maxDuration: 0.621564
       minDuration: 0.164923
+    - name: Play_Landing
+      guid: d6fe17205bccd7499833984f792344b7
+      id: 2323405115
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Landing
+        ObjectType: 4
+        guid: b3756687a1d8cb428fe506b5c6a5e10a
+      - ElementName: Play_Landing
+        ObjectType: 3
+        guid: d6fe17205bccd7499833984f792344b7
+      Path: Events\Default Work Unit\Landing\Play_Landing
+      maxAttenuation: 0
+      maxDuration: 0.40929
+      minDuration: 0.310875
     - name: Play_Solving_a_puzzle
       guid: da6478e2a7b7954f936c6d4e8c7c10ec
       id: 3847695549
@@ -127,6 +167,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: da6478e2a7b7954f936c6d4e8c7c10ec
       Path: Events\Default Work Unit\Play_Solving_a_puzzle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Walking
+      guid: 737d5927e20e65489b393792175576d4
+      id: 340271938
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Walking
+        ObjectType: 4
+        guid: 737d5927e20e65489b393792175576d4
+      Path: Events\Default Work Unit\Walking
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -170,11 +227,11 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 978a6354ff4d66409d3a9a2859501ce4
     GuidInternal: 
-    m_lastTime: -8585638359458022581
+    m_lastTime: -8585637698671335298
     List:
-    - name: Foorsteps
-      guid: b8aeccecf0110444b8d46ed0fbcaf85e
-      id: 1238613592
+    - name: Footsteps
+      guid: e624863b12bd014e8c98e5451835f1fc
+      id: 2385628198
       PathAndIcons:
       - ElementName: Switches
         ObjectType: 5
@@ -182,13 +239,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 978a6354ff4d66409d3a9a2859501ce4
-      - ElementName: Foorsteps
+      - ElementName: Footsteps
         ObjectType: 11
-        guid: b8aeccecf0110444b8d46ed0fbcaf85e
-      Path: Switches\Default Work Unit\Foorsteps
+        guid: e624863b12bd014e8c98e5451835f1fc
+      Path: Switches\Default Work Unit\Footsteps
       values:
       - name: Dirt
-        guid: 8c5f7f49521aeb4b84bad87bd962acb8
+        guid: add28ea8f7c3ba43b98a242f4998b08b
         id: 2195636714
         PathAndIcons:
         - ElementName: Switches
@@ -197,14 +254,14 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 978a6354ff4d66409d3a9a2859501ce4
-        - ElementName: Foorsteps
+        - ElementName: Footsteps
           ObjectType: 11
-          guid: b8aeccecf0110444b8d46ed0fbcaf85e
+          guid: e624863b12bd014e8c98e5451835f1fc
         - ElementName: Dirt
           ObjectType: 10
-          guid: 8c5f7f49521aeb4b84bad87bd962acb8
+          guid: add28ea8f7c3ba43b98a242f4998b08b
       - name: Water
-        guid: 2a9bdcbb239edb479597cccf72346624
+        guid: 0191ce5dbc3be243a5f167a4b7398504
         id: 2654748154
         PathAndIcons:
         - ElementName: Switches
@@ -213,12 +270,12 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 978a6354ff4d66409d3a9a2859501ce4
-        - ElementName: Foorsteps
+        - ElementName: Footsteps
           ObjectType: 11
-          guid: b8aeccecf0110444b8d46ed0fbcaf85e
+          guid: e624863b12bd014e8c98e5451835f1fc
         - ElementName: Water
           ObjectType: 10
-          guid: 2a9bdcbb239edb479597cccf72346624
+          guid: 0191ce5dbc3be243a5f167a4b7398504
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -236,8 +293,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585644399794025832
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000000c0000000d0000000e00000010000000bb000000bd000000d3000000d4000000e5000000e6000000e9000000ea0000001201000013010000320100003301000034010000450100004601000047010000d4010000d50100001e0200001f020000b5020000
-  ExpandedWaapiItemIds: 010000000200000004000000050000000600000007000000080000000b0000000e000000100000008500000086000000bb000000bd000000d3000000d4000000e5000000e6000000e9000000ea0000001201000013010000230100003201000033010000340100003c0100003d010000450100004601000047010000d4010000d50100001e0200001f020000b5020000
+  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000000c0000000d0000000e00000010000000bb000000bd000000ce000000cf000000d0000000d2000000d3000000d4000000e5000000e6000000e9000000ea0000001201000013010000320100003301000034010000450100004601000047010000850100008601000087010000d4010000d50100001e0200001f020000b5020000
+  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000000e000000100000008500000086000000bb000000bd000000d3000000d4000000e5000000e6000000e9000000ea000000120100001301000020010000230100003201000033010000340100003c0100003d010000450100004601000047010000d4010000d5010000fb010000fc010000fd0100001e0200001f020000b5020000
   AutoSyncSelection: 1
   autoPopulateEnabled: 0
   currentDataSource: 0
