@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Solving_a_puzzle" ID="{E27864DA-B7A7-4F95-936C-6D4E8C7C10EC}">
+					<ChildrenList>
+						<Action Name="" ID="{5EDC32F6-054F-46F3-8E4F-132881B4D0A8}" ShortID="180208908">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Solving-a-puzzle" ID="{A88BE990-9182-45C1-950A-3ADDE753A5A0}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}">
+					<ChildrenList>
+						<Action Name="" ID="{07A289E4-562D-4598-BD4C-07343D7995A5}" ShortID="204393050">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{843B17C0-B5FB-470A-A269-6C9E2C336C32}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

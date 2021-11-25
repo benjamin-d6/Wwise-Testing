@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>F:\sep2021-stud-benjamin-derksen\WWiseTesting\WWiseTesting_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\sep2021-stud-benjamin-derksen\WWiseTesting\WWiseTesting_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>F:\sep2021-stud-benjamin-derksen\WWiseTesting\WWiseTesting_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\sep2021-stud-benjamin-derksen\WWiseTesting\WWiseTesting_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="229511499">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" DurationType="OneShot" DurationMin="0.164923" DurationMax="0.680113">
+					<IncludedMemoryFiles>
+						<File Id="69516150" Language="SFX">
+							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem</Path>
+						</File>
+						<File Id="80412620" Language="SFX">
+							<ShortName>Water\water step4.wav</ShortName>
+							<Path>SFX\Water\water step4_10C4C929.wem</Path>
+						</File>
+						<File Id="147472232" Language="SFX">
+							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _E43E0155.wem</Path>
+						</File>
+						<File Id="301709278" Language="SFX">
+							<ShortName>Water\water step 1.wav</ShortName>
+							<Path>SFX\Water\water step 1_10C4C929.wem</Path>
+						</File>
+						<File Id="515794795" Language="SFX">
+							<ShortName>Water\water step3.wav</ShortName>
+							<Path>SFX\Water\water step3_10C4C929.wem</Path>
+						</File>
+						<File Id="644335690" Language="SFX">
+							<ShortName>Water\water step5.wav</ShortName>
+							<Path>SFX\Water\water step5_10C4C929.wem</Path>
+						</File>
+						<File Id="876976061" Language="SFX">
+							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow _D484FDCA.wem</Path>
+						</File>
+						<File Id="960585968" Language="SFX">
+							<ShortName>Water\water step2.wav</ShortName>
+							<Path>SFX\Water\water step2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{497F5F8C-1A52-4BEB-84BA-D87BD962ACB8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{497F5F8C-1A52-4BEB-84BA-D87BD962ACB8}">
+							<Media>
+								<File Id="69516150"/>
+								<File Id="147472232"/>
+								<File Id="876976061"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BBDC9B2A-9E23-47DB-9597-CCCF72346624}">
+							<Media>
+								<File Id="80412620"/>
+								<File Id="301709278"/>
+								<File Id="515794795"/>
+								<File Id="644335690"/>
+								<File Id="960585968"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3847695549" Name="Play_Solving_a_puzzle" ObjectPath="\Events\Default Work Unit\Play_Solving_a_puzzle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="409616183" Language="SFX">
+							<ShortName>Solving-a-puzzle.wav</ShortName>
+							<Path>SFX\Solving-a-puzzle_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="1238613592" Name="Foorsteps" ObjectPath="\Switches\Default Work Unit\Foorsteps" GUID="{ECCCAEB8-11F0-4404-B8D4-6ED0FBCAF85E}">
+					<Switches>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Foorsteps\Dirt" GUID="{497F5F8C-1A52-4BEB-84BA-D87BD962ACB8}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Foorsteps\Water" GUID="{BBDC9B2A-9E23-47DB-9597-CCCF72346624}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a32632d07825b40898e5e978d442a0, type: 3}
+  m_Name: ECCCAEB8-11F0-4404-B8D4-6ED0FBCAF85E
+  m_EditorClassIdentifier: 
+  objectName: Foorsteps
+  id: 1238613592
+  guid: ECCCAEB8-11F0-4404-B8D4-6ED0FBCAF85E
