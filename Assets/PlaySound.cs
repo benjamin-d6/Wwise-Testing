@@ -9,26 +9,36 @@ public class PlaySound : MonoBehaviour
     public ThirdPersonController TMovement;
     [Header("Wwise Events")]
     public AK.Wwise.Event myFootstep;
+    public AK.Wwise.Event myLanding;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        m_Animator = GetComponent<Animator>();    
+        m_Animator = GetComponent<Animator>();
     }
 
 
     void footstepPlay(float targetWalkSpeed)
     {
-        
-        float actualSpeed = TMovement._speed ;
+
+        float actualSpeed = TMovement._speed;
         if (GetMovementState(targetWalkSpeed) == GetMovementState(actualSpeed))
         {
             myFootstep.Post(gameObject);
         }
     }
+    void LandingPlay(float targetWalkSpeed)
+    {
+        float actualSpeed = TMovement._speed;
+        if (GetMovementState(targetWalkSpeed) == GetMovementState(actualSpeed))
+        {
+            myLanding.Post(gameObject);
+        }
+    }
     private int GetMovementState(float speed)
     {
-        if (speed< .5f)
+        if (speed < .5f)
         {
             return 0;
         }
