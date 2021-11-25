@@ -7,19 +7,28 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 
 Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Footsteps			
 	2195636714	Dirt	Footsteps			
 	2654748154	Water	Footsteps			
+	4248645337	Grass	Footsteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	53791480	zandloop_03	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\zandloop_03_9BC43744.wem		\Actor-Mixer Hierarchy\Default Work Unit\landing\step2\zandloop_03		76850
 	69516150	PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _A98966F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps Dirt\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow		25860
-	80412620	water step4	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\landing\step1\water step4		51292
+	80412620	water step4	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep Water\water step4		51292
 	147472232	PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _49B139CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps Dirt\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow		36602
+	282891463	grasloop_02	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\grasloop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps Grass\grasloop_02		45628
 	289688904	PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _D0E69551.wem		\Actor-Mixer Hierarchy\Default Work Unit\landing\step2\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow		27836
 	301709278	water step 1	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep Water\water step 1		48732
+	334383187	zandloop_03	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\zandloop_03_EEC1C935.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps sand\zandloop_03		85432
+	355703800	zandloop_01	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\zandloop_01_1CE989FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps sand\zandloop_01		67480
 	409616183	Solving-a-puzzle	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Solving-a-puzzle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Solving-a-puzzle		16865344
-	472837230	PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _47666CA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\landing\step1\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow		34636
+	472837230	PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _97302D26.wem		\Actor-Mixer Hierarchy\Default Work Unit\landing\step1\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow		34636
 	515794795	water step3	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep Water\water step3		47944
 	644335690	water step5	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep Water\water step5		61536
+	873693094	zandloop_02	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\zandloop_02_F0B95139.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps sand\zandloop_02		70544
 	876976061	PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow _D484FDCA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps Dirt\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow		51710
-	960585968	water step2	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\landing\step2\water step2		36712
+	892912427	grasloop_01	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\grasloop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps Grass\grasloop_01		44488
+	913057826	grasloop_03	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\grasloop_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps Grass\grasloop_03		50184
+	960585968	water step2	F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep Water\water step2		36712
 

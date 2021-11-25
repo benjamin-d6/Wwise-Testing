@@ -26,9 +26,6 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{29D96609-942D-4689-ADDE-2F1D9327D9ED}" ShortID="124420889">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.12"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="step2" ID="{995BFB9E-A876-4CE6-8FBF-038089FE2F90}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>

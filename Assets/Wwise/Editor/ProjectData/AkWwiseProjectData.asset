@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 523560ac785afb42872f6c8eb5dfef57
     GuidInternal: 
-    m_lastTime: -8585637700989165304
+    m_lastTime: -8585637572234954728
     List:
     - name: Landing
       guid: b3756687a1d8cb428fe506b5c6a5e10a
@@ -131,7 +131,7 @@ MonoBehaviour:
         guid: c493caf5a3998f4e84d7e4568b12ea37
       Path: Events\Default Work Unit\Walking\Play_Footsteps
       maxAttenuation: 0
-      maxDuration: 0.621564
+      maxDuration: 1.027396
       minDuration: 0.164923
     - name: Play_Landing
       guid: d6fe17205bccd7499833984f792344b7
@@ -151,7 +151,7 @@ MonoBehaviour:
         guid: d6fe17205bccd7499833984f792344b7
       Path: Events\Default Work Unit\Landing\Play_Landing
       maxAttenuation: 0
-      maxDuration: 0.40929
+      maxDuration: 0.642083
       minDuration: 0.310875
     - name: Play_Solving_a_puzzle
       guid: da6478e2a7b7954f936c6d4e8c7c10ec
@@ -227,7 +227,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 978a6354ff4d66409d3a9a2859501ce4
     GuidInternal: 
-    m_lastTime: -8585637698671335298
+    m_lastTime: -8585637572235589617
     List:
     - name: Footsteps
       guid: e624863b12bd014e8c98e5451835f1fc
@@ -260,6 +260,38 @@ MonoBehaviour:
         - ElementName: Dirt
           ObjectType: 10
           guid: add28ea8f7c3ba43b98a242f4998b08b
+      - name: Grass
+        guid: 43ccf2f866a46b44b3363fef50961122
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 978a6354ff4d66409d3a9a2859501ce4
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: e624863b12bd014e8c98e5451835f1fc
+        - ElementName: Grass
+          ObjectType: 10
+          guid: 43ccf2f866a46b44b3363fef50961122
+      - name: Sand
+        guid: e31e3e81e2ba5747a90651fadbae7b24
+        id: 803837735
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 978a6354ff4d66409d3a9a2859501ce4
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: e624863b12bd014e8c98e5451835f1fc
+        - ElementName: Sand
+          ObjectType: 10
+          guid: e31e3e81e2ba5747a90651fadbae7b24
       - name: Water
         guid: 0191ce5dbc3be243a5f167a4b7398504
         id: 2654748154
@@ -294,7 +326,7 @@ MonoBehaviour:
     m_lastTime: -8585644399794025832
     List: []
   ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000000c0000000d0000000e00000010000000bb000000bd000000ce000000cf000000d0000000d2000000d3000000d4000000e5000000e6000000e9000000ea0000001201000013010000320100003301000034010000450100004601000047010000850100008601000087010000d4010000d50100001e0200001f020000b5020000
-  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000000e000000100000008500000086000000bb000000bd000000d3000000d4000000e5000000e6000000e9000000ea000000120100001301000020010000230100003201000033010000340100003c0100003d010000450100004601000047010000d4010000d5010000fb010000fc010000fd0100001e0200001f020000b5020000
+  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000000e0000000f00000010000000110000008500000086000000bb000000bd000000d3000000d4000000e5000000e6000000e9000000ea000000120100001301000020010000230100003201000033010000340100003c0100003d010000450100004601000047010000d4010000d5010000fb010000fc010000fd0100001502000016020000170200001e0200001f020000b5020000
   AutoSyncSelection: 1
   autoPopulateEnabled: 0
   currentDataSource: 0
