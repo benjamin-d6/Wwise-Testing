@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>F:\Wwise-Testing\WWiseTesting_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Wwise-Testing\WWiseTesting_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\sep2021-stud-benjamin-derksen\WwiseTestingProj\WWiseTesting_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\Wwise-Testing\WWiseTesting_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,13 +16,17 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2843814751">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3034934714">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Walking\Play_Footsteps" DurationType="OneShot" DurationMin="0.164923" DurationMax="1.027396">
 					<IncludedMemoryFiles>
+						<File Id="68380245" Language="SFX">
+							<ShortName>steenloop 3.wav</ShortName>
+							<Path>SFX\steenloop 3_983C4492.wem</Path>
+						</File>
 						<File Id="69516150" Language="SFX">
 							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
 							<Path>SFX\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _A98966F8.wem</Path>
@@ -45,11 +49,23 @@
 						</File>
 						<File Id="334383187" Language="SFX">
 							<ShortName>zandloop_03.wav</ShortName>
-							<Path>SFX\zandloop_03_EEC1C935.wem</Path>
+							<Path>SFX\zandloop_03_B11C9B57.wem</Path>
 						</File>
 						<File Id="355703800" Language="SFX">
 							<ShortName>zandloop_01.wav</ShortName>
-							<Path>SFX\zandloop_01_1CE989FE.wem</Path>
+							<Path>SFX\zandloop_01_ED2CD4E5.wem</Path>
+						</File>
+						<File Id="370566928" Language="SFX">
+							<ShortName>steenloop 2.wav</ShortName>
+							<Path>SFX\steenloop 2_E7C6FEA8.wem</Path>
+						</File>
+						<File Id="374274075" Language="SFX">
+							<ShortName>Steenloop 1.wav</ShortName>
+							<Path>SFX\Steenloop 1_5FF78025.wem</Path>
+						</File>
+						<File Id="510681431" Language="SFX">
+							<ShortName>steenloop 4.wav</ShortName>
+							<Path>SFX\steenloop 4_2FDAEEC1.wem</Path>
 						</File>
 						<File Id="515794795" Language="SFX">
 							<ShortName>Water\water step3.wav</ShortName>
@@ -61,7 +77,7 @@
 						</File>
 						<File Id="873693094" Language="SFX">
 							<ShortName>zandloop_02.wav</ShortName>
-							<Path>SFX\zandloop_02_F0B95139.wem</Path>
+							<Path>SFX\zandloop_02_874A2522.wem</Path>
 						</File>
 						<File Id="876976061" Language="SFX">
 							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -82,13 +98,6 @@
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}">
-							<Media>
-								<File Id="69516150"/>
-								<File Id="147472232"/>
-								<File Id="876976061"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}">
 							<Media>
 								<File Id="80412620"/>
@@ -98,11 +107,26 @@
 								<File Id="960585968"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}">
+							<Media>
+								<File Id="68380245"/>
+								<File Id="370566928"/>
+								<File Id="374274075"/>
+								<File Id="510681431"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{F8F2CC43-A466-446B-B336-3FEF50961122}">
 							<Media>
 								<File Id="282891463"/>
 								<File Id="892912427"/>
 								<File Id="913057826"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}">
+							<Media>
+								<File Id="69516150"/>
+								<File Id="147472232"/>
+								<File Id="876976061"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{813E1EE3-BAE2-4757-A906-51FADBAE7B24}">
@@ -118,7 +142,7 @@
 					<IncludedMemoryFiles>
 						<File Id="53791480" Language="SFX">
 							<ShortName>zandloop_03.wav</ShortName>
-							<Path>SFX\zandloop_03_9BC43744.wem</Path>
+							<Path>SFX\zandloop_03_42021BD2.wem</Path>
 						</File>
 						<File Id="80412620" Language="SFX">
 							<ShortName>Water\water step4.wav</ShortName>
@@ -134,11 +158,19 @@
 						</File>
 						<File Id="355703800" Language="SFX">
 							<ShortName>zandloop_01.wav</ShortName>
-							<Path>SFX\zandloop_01_1CE989FE.wem</Path>
+							<Path>SFX\zandloop_01_ED2CD4E5.wem</Path>
 						</File>
 						<File Id="472837230" Language="SFX">
 							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
-							<Path>SFX\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _97302D26.wem</Path>
+							<Path>SFX\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _7D051DF0.wem</Path>
+						</File>
+						<File Id="662582090" Language="SFX">
+							<ShortName>SteenSprong 1.wav</ShortName>
+							<Path>SFX\SteenSprong 1_DB5D3DA9.wem</Path>
+						</File>
+						<File Id="666486424" Language="SFX">
+							<ShortName>SteenSprong 2.wav</ShortName>
+							<Path>SFX\SteenSprong 2_19FBB963.wem</Path>
 						</File>
 						<File Id="913057826" Language="SFX">
 							<ShortName>grasloop_03.wav</ShortName>
@@ -151,14 +183,14 @@
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}">
-							<Media>
-								<File Id="472837230"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}">
 							<Media>
 								<File Id="80412620"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}">
+							<Media>
+								<File Id="662582090"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{F8F2CC43-A466-446B-B336-3FEF50961122}">
@@ -166,14 +198,14 @@
 								<File Id="282891463"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}">
+							<Media>
+								<File Id="472837230"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{813E1EE3-BAE2-4757-A906-51FADBAE7B24}">
 							<Media>
 								<File Id="355703800"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}">
-							<Media>
-								<File Id="289688904"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}">
@@ -181,9 +213,19 @@
 								<File Id="960585968"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}">
+							<Media>
+								<File Id="666486424"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{F8F2CC43-A466-446B-B336-3FEF50961122}">
 							<Media>
 								<File Id="913057826"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}">
+							<Media>
+								<File Id="289688904"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{813E1EE3-BAE2-4757-A906-51FADBAE7B24}">
@@ -209,6 +251,7 @@
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Footsteps\Water" GUID="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footsteps\Grass" GUID="{F8F2CC43-A466-446B-B336-3FEF50961122}"/>
 						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Footsteps\Sand" GUID="{813E1EE3-BAE2-4757-A906-51FADBAE7B24}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Footsteps\Stone" GUID="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

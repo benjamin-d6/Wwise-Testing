@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 523560ac785afb42872f6c8eb5dfef57
     GuidInternal: 
-    m_lastTime: -8585636991670763207
+    m_lastTime: -8585636863464518997
     List:
     - name: Landing
       guid: b3756687a1d8cb428fe506b5c6a5e10a
@@ -227,7 +227,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 978a6354ff4d66409d3a9a2859501ce4
     GuidInternal: 
-    m_lastTime: -8585636991489360953
+    m_lastTime: -8585636863462916916
     List:
     - name: Footsteps
       guid: e624863b12bd014e8c98e5451835f1fc
@@ -292,6 +292,22 @@ MonoBehaviour:
         - ElementName: Sand
           ObjectType: 10
           guid: e31e3e81e2ba5747a90651fadbae7b24
+      - name: Stone
+        guid: 33172ad7f0e5a84c9c850c7c3f73d77b
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 978a6354ff4d66409d3a9a2859501ce4
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: e624863b12bd014e8c98e5451835f1fc
+        - ElementName: Stone
+          ObjectType: 10
+          guid: 33172ad7f0e5a84c9c850c7c3f73d77b
       - name: Water
         guid: 0191ce5dbc3be243a5f167a4b7398504
         id: 2654748154
@@ -326,7 +342,7 @@ MonoBehaviour:
     m_lastTime: -8585636991489355996
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0f0000001000000011000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
