@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\WWiseTesting_WwiseProject.wproj" DateLow="1638160651" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\WWiseTesting_WwiseProject.Benjamin.wsettings" DateLow="1638163332" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\WWiseTesting_WwiseProject.Benjamin.wsettings" DateLow="1638175246" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1637907736" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1637907736" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1637920539" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\States\Default Work Unit.wwu" DateLow="1637907736" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1638162298" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1638157766" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1638164923" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\Queries\Factory Queries.wwu" DateLow="1637907736" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1637907736" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Wwise-Testing\WWiseTesting_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1637907736" DateHigh="0"/>

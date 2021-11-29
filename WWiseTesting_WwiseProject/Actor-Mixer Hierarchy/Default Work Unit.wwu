@@ -734,6 +734,190 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footsteps Wood" ID="{73EA2581-E389-4ED5-9814-46AD5DA75354}" ShortID="238381278">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8526DDFE-73BE-450B-A2C7-3253B69E26E7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="250"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="lopen op hout_01" ID="{B1286867-29BB-4596-BE39-D685456206AA}" ShortID="15784308">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="lopen op hout_01" ID="{88DD7836-CCF9-492C-9406-4D27B92C46C2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0277062861271676"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0350249277456647"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0543670520231214"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>lopen op hout_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="882275102"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="lopen op hout_01" ID="{88DD7836-CCF9-492C-9406-4D27B92C46C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="lopen op hout_02" ID="{56039ACC-EDE4-45DF-A5C3-8ED7CB177556}" ShortID="948406571">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="lopen op hout_02" ID="{0BF764DA-6D95-41EC-83A3-6CED211B101D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0433322796242775"/>
+														<Property Name="LoopEnd" Type="Real64" Value="0.243816293352601"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.244394057080925"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>lopen op hout_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="736348735"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="lopen op hout_02" ID="{0BF764DA-6D95-41EC-83A3-6CED211B101D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="lopen op hout_03" ID="{D8AAFB3F-58C4-45C2-B5AA-4CA9E60EF7D2}" ShortID="547428704">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="lopen op hout_03" ID="{61ADA2B2-3E3B-487B-86CF-973B6AADB213}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0187636982177264"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0641597422928709"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0102897699903661"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.400695749036609"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>lopen op hout_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="434089419"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="lopen op hout_03" ID="{61ADA2B2-3E3B-487B-86CF-973B6AADB213}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="lopen op hout_05" ID="{3856B4DC-1DE5-4D26-A7F8-293D79A63C54}" ShortID="247176358">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="lopen op hout_05" ID="{DA1BEE51-0294-44C8-B7DF-2E3B8CDB4B58}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0311992413294798"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0600874277456647"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0161773843930636"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.366302203757225"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>lopen op hout_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="121198613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="lopen op hout_05" ID="{DA1BEE51-0294-44C8-B7DF-2E3B8CDB4B58}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="lopen op hout_04" ID="{20E0884A-B36F-4785-8A6D-5E887717F092}" ShortID="250440566">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Footsteps" ID="{E4088243-B4E0-4FE5-95D9-486B700BADED}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="lopen op hout_04" ID="{470485B0-FA1D-4B97-A46F-9F768883D71C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0393441413776493"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0522204058285164"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.455676691955684"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>lopen op hout_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850359463"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="lopen op hout_04" ID="{470485B0-FA1D-4B97-A46F-9F768883D71C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
 							<GroupingInfo>
@@ -749,6 +933,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Footsteps stone" ID="{5B39CD80-6E2E-4F77-8A5F-420F895BCE6F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps Wood" ID="{73EA2581-E389-4ED5-9814-46AD5DA75354}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Footsteps Grass" ID="{5445AFCC-892D-46DF-97B4-D955D1EFFC9B}"/>
@@ -774,6 +961,12 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
+										<SwitchRef Name="Wood" ID="{C0CC7680-598E-4592-9A4A-4B08B9C7B011}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps Wood" ID="{73EA2581-E389-4ED5-9814-46AD5DA75354}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
 										<SwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
 										<ItemList>
 											<ItemRef Name="footsteps Dirt" ID="{9155B04D-C64E-4889-9CE2-643F8FA80D15}"/>
@@ -792,6 +985,19 @@
 							<ChildrenList>
 								<SwitchContainer Name="step1" ID="{139735C5-9222-4D6C-B6E0-841D40595C9A}" ShortID="428613213">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F587F90F-7AC2-4F24-B487-5430A8D78609}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="250"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -992,6 +1198,38 @@
 												<ActiveSource Name="SteenSprong 1" ID="{FCA75293-1951-477B-88DB-2C01317BFCCB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="lopen op hout_04" ID="{B452A451-09DB-43A1-892F-1CF9F5F434F2}" ShortID="123506215">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Footsteps" ID="{E4088243-B4E0-4FE5-95D9-486B700BADED}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="lopen op hout_04" ID="{C4173030-D39F-4776-872F-2C3310A38E67}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0393441413776493"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0522204058285164"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.455676691955684"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>lopen op hout_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850359463"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="lopen op hout_04" ID="{C4173030-D39F-4776-872F-2C3310A38E67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 									<GroupingInfo>
@@ -1004,6 +1242,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="water step4" ID="{35248735-4B20-4A99-A8C3-AD93EBBA6317}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="lopen op hout_04" ID="{B452A451-09DB-43A1-892F-1CF9F5F434F2}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="SteenSprong 1" ID="{2BFD4786-C950-419A-9816-5ADA5D0F7DF5}"/>
@@ -1032,6 +1273,12 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="Wood" ID="{C0CC7680-598E-4592-9A4A-4B08B9C7B011}"/>
+												<ItemList>
+													<ItemRef Name="lopen op hout_04" ID="{B452A451-09DB-43A1-892F-1CF9F5F434F2}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
 												<ItemList>
 													<ItemRef Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{26BBB002-10EF-4CB9-9882-AD480AD0AE92}"/>
@@ -1052,6 +1299,18 @@
 											<ValueList>
 												<Value>0.2</Value>
 											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{43CDD273-ED96-4F62-9260-E22193A8AC61}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
@@ -1257,6 +1516,39 @@
 												<ActiveSource Name="SteenSprong 2" ID="{5290BA62-C5FB-4F23-9576-CA70FE74E921}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="lopen op hout_05" ID="{9FF327BB-23CC-43BB-BE96-D3324DFF0589}" ShortID="1023423553">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Footsteps" ID="{E4088243-B4E0-4FE5-95D9-486B700BADED}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="lopen op hout_05" ID="{AB020457-2C1A-46C9-A899-ECE64886597E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0311992413294798"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0600874277456647"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0161773843930636"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.366302203757225"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>lopen op hout_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="121198613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="lopen op hout_05" ID="{AB020457-2C1A-46C9-A899-ECE64886597E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 									<GroupingInfo>
@@ -1272,6 +1564,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="grasloop_03" ID="{9E87ADAB-C56A-4C47-AE08-E813BA1FF834}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="lopen op hout_05" ID="{9FF327BB-23CC-43BB-BE96-D3324DFF0589}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="zandloop_03" ID="{C56F81FF-397B-4EAA-814D-BB5B26905BE4}"/>
@@ -1294,6 +1589,12 @@
 												<SwitchRef Name="Grass" ID="{F8F2CC43-A466-446B-B336-3FEF50961122}"/>
 												<ItemList>
 													<ItemRef Name="grasloop_03" ID="{9E87ADAB-C56A-4C47-AE08-E813BA1FF834}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{C0CC7680-598E-4592-9A4A-4B08B9C7B011}"/>
+												<ItemList>
+													<ItemRef Name="lopen op hout_05" ID="{9FF327BB-23CC-43BB-BE96-D3324DFF0589}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>

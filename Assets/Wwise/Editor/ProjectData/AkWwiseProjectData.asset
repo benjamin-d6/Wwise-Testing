@@ -154,7 +154,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fcbd133c54d0d74fb307263eda60a6c5
     GuidInternal: 
-    m_lastTime: -8585634491189243111
+    m_lastTime: -8585634419623183198
     List:
     - name: Main
       guid: 2012899e09c5bb4e9dc58ced7400f97d
@@ -170,6 +170,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 2012899e09c5bb4e9dc58ced7400f97d
       Path: SoundBanks\Default Work Unit\Main
+    - name: Second_main_Git
+      guid: dafcd87844a9934b9c746116100ef5ef
+      id: 890296786
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fcbd133c54d0d74fb307263eda60a6c5
+      - ElementName: Second_main_Git
+        ObjectType: 7
+        guid: dafcd87844a9934b9c746116100ef5ef
+      Path: SoundBanks\Default Work Unit\Second_main_Git
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -299,7 +313,7 @@ MonoBehaviour:
         guid: d6fe17205bccd7499833984f792344b7
       Path: Events\Default Work Unit\Character\Landing\Play_Landing
       maxAttenuation: 0
-      maxDuration: 0.999854
+      maxDuration: 1.124113
       minDuration: 0.390875
     - name: Play_Solving_a_puzzle_01
       guid: f0cfb1176ea0ca4793ce3191e50b3116
@@ -441,7 +455,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 978a6354ff4d66409d3a9a2859501ce4
     GuidInternal: 
-    m_lastTime: -8585636863462916916
+    m_lastTime: -8585634052665153559
     List:
     - name: Footsteps
       guid: e624863b12bd014e8c98e5451835f1fc
@@ -538,6 +552,22 @@ MonoBehaviour:
         - ElementName: Water
           ObjectType: 10
           guid: 0191ce5dbc3be243a5f167a4b7398504
+      - name: Wood
+        guid: 8076ccc08e5992459a4a4b08b9c7b011
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 978a6354ff4d66409d3a9a2859501ce4
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: e624863b12bd014e8c98e5451835f1fc
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 8076ccc08e5992459a4a4b08b9c7b011
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -556,7 +586,7 @@ MonoBehaviour:
     m_lastTime: -8585636991489355996
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000f000000110000001a0000002000000027000000dc000000dd000000de0000003cf50600
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000f0000001100000012000000130000001a0000002000000027000000dc000000dd000000de0000003cf50600
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
