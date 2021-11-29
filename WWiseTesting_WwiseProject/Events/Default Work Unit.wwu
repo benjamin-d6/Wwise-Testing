@@ -3,32 +3,55 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Solving_a_puzzle" ID="{E27864DA-B7A7-4F95-936C-6D4E8C7C10EC}">
+				<Folder Name="Character" ID="{BFA348DE-B434-4374-81E5-CED58CD329D9}" ShortID="844398175">
 					<ChildrenList>
-						<Action Name="" ID="{5EDC32F6-054F-46F3-8E4F-132881B4D0A8}" ShortID="180208908">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Solving-a-puzzle" ID="{A88BE990-9182-45C1-950A-3ADDE753A5A0}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Folder Name="Landing" ID="{876675B3-D8A1-42CB-8FE5-06B5C6A5E10A}" ShortID="437697235">
-					<ChildrenList>
-						<Event Name="Play_Landing" ID="{2017FED6-CC5B-49D7-9833-984F792344B7}">
+						<Folder Name="Landing" ID="{876675B3-D8A1-42CB-8FE5-06B5C6A5E10A}" ShortID="437697235">
 							<ChildrenList>
-								<Action Name="" ID="{CCEA9A3A-A51D-48DD-B5DE-3A83D231CDFB}" ShortID="616403217">
+								<Event Name="Play_Landing" ID="{2017FED6-CC5B-49D7-9833-984F792344B7}">
+									<ChildrenList>
+										<Action Name="" ID="{CCEA9A3A-A51D-48DD-B5DE-3A83D231CDFB}" ShortID="616403217">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="step1" ID="{139735C5-9222-4D6C-B6E0-841D40595C9A}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{29D96609-942D-4689-ADDE-2F1D9327D9ED}" ShortID="124420889">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="step2" ID="{995BFB9E-A876-4CE6-8FBF-038089FE2F90}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Walking" ID="{27597D73-0EE2-4865-9B39-3792175576D4}" ShortID="675352891">
+							<ChildrenList>
+								<Event Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}">
+									<ChildrenList>
+										<Action Name="" ID="{8FDB69B9-7C45-4428-844F-1198459C0547}" ShortID="651727247">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{843B17C0-B5FB-470A-A269-6C9E2C336C32}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{3C9924D9-DDE8-4414-AF3F-BCDBA685D0ED}" ShortID="666616392">
+					<ChildrenList>
+						<Event Name="Play_Solving_a_puzzle_01" ID="{17B1CFF0-A06E-47CA-93CE-3191E50B3116}">
+							<ChildrenList>
+								<Action Name="" ID="{BE36B74E-1C53-4FDB-ABB6-F9ADA29B2E04}" ShortID="61579754">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="step1" ID="{139735C5-9222-4D6C-B6E0-841D40595C9A}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{29D96609-942D-4689-ADDE-2F1D9327D9ED}" ShortID="124420889">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="step2" ID="{995BFB9E-A876-4CE6-8FBF-038089FE2F90}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+											<ObjectRef Name="Solving-a-puzzle" ID="{A88BE990-9182-45C1-950A-3ADDE753A5A0}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -36,14 +59,39 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Walking" ID="{27597D73-0EE2-4865-9B39-3792175576D4}" ShortID="675352891">
+				<Folder Name="Ambient" ID="{63485E7E-6A39-4340-99E8-1E04F2F16C23}" ShortID="19059430">
 					<ChildrenList>
-						<Event Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}">
+						<Event Name="PlayAirToneDesertedRoad" ID="{28A33D3E-260A-46C1-823B-3D251E26419B}">
 							<ChildrenList>
-								<Action Name="" ID="{8FDB69B9-7C45-4428-844F-1198459C0547}" ShortID="651727247">
+								<Action Name="" ID="{84C34557-7944-4571-8D77-48D595FFA939}" ShortID="519250562">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{843B17C0-B5FB-470A-A269-6C9E2C336C32}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+											<ObjectRef Name="Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR" ID="{5C734C04-8405-43F9-997C-FDB3F43980BD}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayWaterNoises" ID="{1760E3E3-2038-42DA-B4B1-7D94274A5562}">
+							<ChildrenList>
+								<Action Name="" ID="{EBDBA0B3-9A81-4F4A-A769-43F618C9C70F}" ShortID="115544831">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterNoises" ID="{C264E6CB-4C27-4E2E-BDDD-270128D8A9A1}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopWaterNoises" ID="{B21B60FF-F9F2-4C9C-90E2-06E28323E20F}">
+							<ChildrenList>
+								<Action Name="" ID="{ABAD859A-1876-4FB0-B986-C3004A2E0797}" ShortID="576699652">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterNoises" ID="{C264E6CB-4C27-4E2E-BDDD-270128D8A9A1}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

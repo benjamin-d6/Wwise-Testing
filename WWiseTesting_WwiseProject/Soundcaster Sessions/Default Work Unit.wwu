@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1D2AEDD0-1738-4C33-B905-7E3F09F7A2CE}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{1D2AEDD0-1738-4C33-B905-7E3F09F7A2CE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1D2AEDD0-1738-4C33-B905-7E3F09F7A2CE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Testing" ID="{945D9BE8-B2EE-4462-908B-583F7AED817D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayAirToneDesertedRoad" ID="{28A33D3E-260A-46C1-823B-3D251E26419B}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWaterNoises" ID="{1760E3E3-2038-42DA-B4B1-7D94274A5562}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Solving_a_puzzle_01" ID="{17B1CFF0-A06E-47CA-93CE-3191E50B3116}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Landing" ID="{2017FED6-CC5B-49D7-9833-984F792344B7}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -15,7 +15,10 @@ namespace AK
     {
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
-        static const AkUniqueID PLAY_SOLVING_A_PUZZLE = 3847695549U;
+        static const AkUniqueID PLAY_SOLVING_A_PUZZLE_01 = 1399408921U;
+        static const AkUniqueID PLAYAIRTONEDESERTEDROAD = 826353507U;
+        static const AkUniqueID PLAYWATERNOISES = 3419015273U;
+        static const AkUniqueID STOPWATERNOISES = 846923123U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -40,12 +43,22 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID SECOND_MAIN_GIT = 890296786U;
     } // namespace BANKS
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENT = 77978275U;
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID REVERBE = 3545700970U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID CAVE = 4122393694U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

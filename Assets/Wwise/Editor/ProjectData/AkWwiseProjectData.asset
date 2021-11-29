@@ -38,8 +38,62 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 73b644f298a87a41be0c6a4f236f5227
     GuidInternal: 
-    m_lastTime: -8585636991616148595
+    m_lastTime: -8585634445858373129
     List:
+    - name: Ambient
+      guid: 4cffd344053bc141ae7dc695d1b82363
+      id: 77978275
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 73b644f298a87a41be0c6a4f236f5227
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambient
+        ObjectType: 2
+        guid: 4cffd344053bc141ae7dc695d1b82363
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient
+    - name: Cave
+      guid: fc2969d58521dd4e9bb3fd760d3cdd54
+      id: 4122393694
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 73b644f298a87a41be0c6a4f236f5227
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbe
+        ObjectType: 2
+        guid: d5fd2ac4b0a22b4bba6f304686ae4aea
+      - ElementName: Cave
+        ObjectType: 1
+        guid: fc2969d58521dd4e9bb3fd760d3cdd54
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\Cave
+    - name: Footsteps
+      guid: 438208e4e0b4e54f95d9486b700baded
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 73b644f298a87a41be0c6a4f236f5227
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Footsteps
+        ObjectType: 2
+        guid: 438208e4e0b4e54f95d9486b700baded
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Footsteps
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +108,40 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 4363cd2392d8db47ac5752ee932771a9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 73b644f298a87a41be0c6a4f236f5227
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 4363cd2392d8db47ac5752ee932771a9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+    - name: Reverbe
+      guid: d5fd2ac4b0a22b4bba6f304686ae4aea
+      id: 3545700970
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 73b644f298a87a41be0c6a4f236f5227
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbe
+        ObjectType: 2
+        guid: d5fd2ac4b0a22b4bba6f304686ae4aea
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +154,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fcbd133c54d0d74fb307263eda60a6c5
     GuidInternal: 
-    m_lastTime: -8585636991489380797
+    m_lastTime: -8585634491189243111
     List:
     - name: Main
       guid: 2012899e09c5bb4e9dc58ced7400f97d
@@ -94,8 +182,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 523560ac785afb42872f6c8eb5dfef57
     GuidInternal: 
-    m_lastTime: -8585636863464518997
+    m_lastTime: -8585634491189312551
     List:
+    - name: Ambient
+      guid: 7e5e4863396a404399e81e04f2f16c23
+      id: 77978275
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 7e5e4863396a404399e81e04f2f16c23
+      Path: Events\Default Work Unit\Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Character
+      guid: de48a3bf34b4744381e5ced58cd329d9
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
+      Path: Events\Default Work Unit\Character
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Landing
       guid: b3756687a1d8cb428fe506b5c6a5e10a
       id: 2548270042
@@ -106,10 +228,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
       - ElementName: Landing
         ObjectType: 4
         guid: b3756687a1d8cb428fe506b5c6a5e10a
-      Path: Events\Default Work Unit\Landing
+      Path: Events\Default Work Unit\Character\Landing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: d924993ce8dd1444af3fbcdba685d0ed
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Music
+        ObjectType: 4
+        guid: d924993ce8dd1444af3fbcdba685d0ed
+      Path: Events\Default Work Unit\Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -123,13 +265,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
       - ElementName: Walking
         ObjectType: 4
         guid: 737d5927e20e65489b393792175576d4
       - ElementName: Play_Footsteps
         ObjectType: 3
         guid: c493caf5a3998f4e84d7e4568b12ea37
-      Path: Events\Default Work Unit\Walking\Play_Footsteps
+      Path: Events\Default Work Unit\Character\Walking\Play_Footsteps
       maxAttenuation: 0
       maxDuration: 1.027396
       minDuration: 0.164923
@@ -143,19 +288,22 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
       - ElementName: Landing
         ObjectType: 4
         guid: b3756687a1d8cb428fe506b5c6a5e10a
       - ElementName: Play_Landing
         ObjectType: 3
         guid: d6fe17205bccd7499833984f792344b7
-      Path: Events\Default Work Unit\Landing\Play_Landing
+      Path: Events\Default Work Unit\Character\Landing\Play_Landing
       maxAttenuation: 0
       maxDuration: 0.999854
       minDuration: 0.390875
-    - name: Play_Solving_a_puzzle
-      guid: da6478e2a7b7954f936c6d4e8c7c10ec
-      id: 3847695549
+    - name: Play_Solving_a_puzzle_01
+      guid: f0cfb1176ea0ca4793ce3191e50b3116
+      id: 1399408921
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -163,13 +311,76 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 523560ac785afb42872f6c8eb5dfef57
-      - ElementName: Play_Solving_a_puzzle
+      - ElementName: Music
+        ObjectType: 4
+        guid: d924993ce8dd1444af3fbcdba685d0ed
+      - ElementName: Play_Solving_a_puzzle_01
         ObjectType: 3
-        guid: da6478e2a7b7954f936c6d4e8c7c10ec
-      Path: Events\Default Work Unit\Play_Solving_a_puzzle
+        guid: f0cfb1176ea0ca4793ce3191e50b3116
+      Path: Events\Default Work Unit\Music\Play_Solving_a_puzzle_01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayAirToneDesertedRoad
+      guid: 3e3da3280a26c146823b3d251e26419b
+      id: 826353507
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 7e5e4863396a404399e81e04f2f16c23
+      - ElementName: PlayAirToneDesertedRoad
+        ObjectType: 3
+        guid: 3e3da3280a26c146823b3d251e26419b
+      Path: Events\Default Work Unit\Ambient\PlayAirToneDesertedRoad
+      maxAttenuation: 0
+      maxDuration: 262.04312
+      minDuration: 262.04312
+    - name: PlayWaterNoises
+      guid: e3e360173820da42b4b17d94274a5562
+      id: 3419015273
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 7e5e4863396a404399e81e04f2f16c23
+      - ElementName: PlayWaterNoises
+        ObjectType: 3
+        guid: e3e360173820da42b4b17d94274a5562
+      Path: Events\Default Work Unit\Ambient\PlayWaterNoises
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
+    - name: StopWaterNoises
+      guid: ff601bb2f2f99c4c90e206e28323e20f
+      id: 846923123
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 7e5e4863396a404399e81e04f2f16c23
+      - ElementName: StopWaterNoises
+        ObjectType: 3
+        guid: ff601bb2f2f99c4c90e206e28323e20f
+      Path: Events\Default Work Unit\Ambient\StopWaterNoises
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Walking
       guid: 737d5927e20e65489b393792175576d4
       id: 340271938
@@ -180,10 +391,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
       - ElementName: Walking
         ObjectType: 4
         guid: 737d5927e20e65489b393792175576d4
-      Path: Events\Default Work Unit\Walking
+      Path: Events\Default Work Unit\Character\Walking
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -342,7 +556,7 @@ MonoBehaviour:
     m_lastTime: -8585636991489355996
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0f0000001000000011000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000f000000110000001a0000002000000027000000dc000000dd000000de0000003cf50600
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

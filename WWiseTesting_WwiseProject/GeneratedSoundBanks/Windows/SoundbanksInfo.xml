@@ -11,21 +11,48 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="890296786" Language="SFX" Hash="1570965654">
+			<ObjectPath>\SoundBanks\Default Work Unit\Second_main_Git</ObjectPath>
+			<ShortName>Second_main_Git</ShortName>
+			<Path>Second_main_Git.bnk</Path>
+			<IncludedEvents>
+				<Event Id="826353507" Name="PlayAirToneDesertedRoad" ObjectPath="\Events\Default Work Unit\Ambient\PlayAirToneDesertedRoad" DurationType="OneShot" DurationMin="262.043121" DurationMax="262.043121">
+					<IncludedMemoryFiles>
+						<File Id="787650316" Language="SFX">
+							<ShortName>Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR.wav</ShortName>
+							<Path>SFX\Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3419015273" Name="PlayWaterNoises" ObjectPath="\Events\Default Work Unit\Ambient\PlayWaterNoises" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="615918396" Language="SFX">
+							<ShortName>Scotch - loch lochy small quiet waves wavelets ripple lake water movement - LR.wav</ShortName>
+							<Path>SFX\Scotch - loch lochy small quiet waves wavelets ripple lake water movement - LR_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="846923123" Name="StopWaterNoises" ObjectPath="\Events\Default Work Unit\Ambient\StopWaterNoises" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="813994746">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\Cave"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3034934714">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1407895190">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Walking\Play_Footsteps" DurationType="OneShot" DurationMin="0.164923" DurationMax="1.027396">
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Character\Walking\Play_Footsteps" DurationType="OneShot" DurationMin="0.164923" DurationMax="1.027396">
 					<IncludedMemoryFiles>
 						<File Id="68380245" Language="SFX">
 							<ShortName>steenloop 3.wav</ShortName>
-							<Path>SFX\steenloop 3_983C4492.wem</Path>
+							<Path>SFX\steenloop 3_1FF91BD0.wem</Path>
 						</File>
 						<File Id="69516150" Language="SFX">
 							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -57,15 +84,15 @@
 						</File>
 						<File Id="370566928" Language="SFX">
 							<ShortName>steenloop 2.wav</ShortName>
-							<Path>SFX\steenloop 2_E7C6FEA8.wem</Path>
+							<Path>SFX\steenloop 2_872D3856.wem</Path>
 						</File>
 						<File Id="374274075" Language="SFX">
 							<ShortName>Steenloop 1.wav</ShortName>
-							<Path>SFX\Steenloop 1_5FF78025.wem</Path>
+							<Path>SFX\Steenloop 1_07D8B3DD.wem</Path>
 						</File>
 						<File Id="510681431" Language="SFX">
 							<ShortName>steenloop 4.wav</ShortName>
-							<Path>SFX\steenloop 4_2FDAEEC1.wem</Path>
+							<Path>SFX\steenloop 4_425C87AC.wem</Path>
 						</File>
 						<File Id="515794795" Language="SFX">
 							<ShortName>Water\water step3.wav</ShortName>
@@ -138,7 +165,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Landing\Play_Landing" DurationType="OneShot" DurationMin="0.390875" DurationMax="0.999854">
+				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Character\Landing\Play_Landing" DurationType="OneShot" DurationMin="0.390875" DurationMax="0.999854">
 					<IncludedMemoryFiles>
 						<File Id="53791480" Language="SFX">
 							<ShortName>zandloop_03.wav</ShortName>
@@ -166,11 +193,11 @@
 						</File>
 						<File Id="662582090" Language="SFX">
 							<ShortName>SteenSprong 1.wav</ShortName>
-							<Path>SFX\SteenSprong 1_DB5D3DA9.wem</Path>
+							<Path>SFX\SteenSprong 1_BD4FEB46.wem</Path>
 						</File>
 						<File Id="666486424" Language="SFX">
 							<ShortName>SteenSprong 2.wav</ShortName>
-							<Path>SFX\SteenSprong 2_19FBB963.wem</Path>
+							<Path>SFX\SteenSprong 2_E60A7029.wem</Path>
 						</File>
 						<File Id="913057826" Language="SFX">
 							<ShortName>grasloop_03.wav</ShortName>
@@ -235,7 +262,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3847695549" Name="Play_Solving_a_puzzle" ObjectPath="\Events\Default Work Unit\Play_Solving_a_puzzle" DurationType="Infinite">
+				<Event Id="1399408921" Name="Play_Solving_a_puzzle_01" ObjectPath="\Events\Default Work Unit\Music\Play_Solving_a_puzzle_01" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="409616183" Language="SFX">
 							<ShortName>Solving-a-puzzle.wav</ShortName>
