@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="890296786" Language="SFX" Hash="1570965654">
+		<SoundBank Id="890296786" Language="SFX" Hash="1744740031">
 			<ObjectPath>\SoundBanks\Default Work Unit\Second_main_Git</ObjectPath>
 			<ShortName>Second_main_Git</ShortName>
 			<Path>Second_main_Git.bnk</Path>
@@ -24,7 +24,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3419015273" Name="PlayWaterNoises" ObjectPath="\Events\Default Work Unit\Ambient\PlayWaterNoises" MaxAttenuation="50.000000" DurationType="Infinite">
+				<Event Id="3419015273" Name="PlayWaterNoises" ObjectPath="\Events\Default Work Unit\Ambient\PlayWaterNoises" MaxAttenuation="25.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="615918396" Language="SFX">
 							<ShortName>Scotch - loch lochy small quiet waves wavelets ripple lake water movement - LR.wav</ShortName>
@@ -35,19 +35,28 @@
 				<Event Id="846923123" Name="StopWaterNoises" ObjectPath="\Events\Default Work Unit\Ambient\StopWaterNoises" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3480711088">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2673071597">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
+				<AuxBus Id="1776466548" Name="SmallerCave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\SmallerCave"/>
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1458968656">
+		<SoundBank Id="3161908922" Language="SFX" Hash="781318618">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3431095223" Name="Play_Bunker_3_1" ObjectPath="\Events\Default Work Unit\Music\Play_Bunker_3_1" DurationType="OneShot" DurationMin="120.084976" DurationMax="120.084976">
+					<IncludedMemoryFiles>
+						<File Id="481610931" Language="SFX">
+							<ShortName>Bunker 3_1.wav</ShortName>
+							<Path>SFX\Bunker 3_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Character\Walking\Play_Footsteps" DurationType="OneShot" DurationMin="0.164923" DurationMax="1.027396">
 					<IncludedMemoryFiles>
 						<File Id="68380245" Language="SFX">
@@ -64,7 +73,7 @@
 						</File>
 						<File Id="121198613" Language="SFX">
 							<ShortName>lopen op hout_05.wav</ShortName>
-							<Path>SFX\lopen op hout_05_85AA5439.wem</Path>
+							<Path>SFX\lopen op hout_05_A60FF654.wem</Path>
 						</File>
 						<File Id="147472232" Language="SFX">
 							<ShortName>PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -96,7 +105,7 @@
 						</File>
 						<File Id="434089419" Language="SFX">
 							<ShortName>lopen op hout_03.wav</ShortName>
-							<Path>SFX\lopen op hout_03_AF50C3A6.wem</Path>
+							<Path>SFX\lopen op hout_03_A222ED40.wem</Path>
 						</File>
 						<File Id="510681431" Language="SFX">
 							<ShortName>steenloop 4.wav</ShortName>
@@ -112,11 +121,11 @@
 						</File>
 						<File Id="736348735" Language="SFX">
 							<ShortName>lopen op hout_02.wav</ShortName>
-							<Path>SFX\lopen op hout_02_73943326.wem</Path>
+							<Path>SFX\lopen op hout_02_15E0AE8D.wem</Path>
 						</File>
 						<File Id="850359463" Language="SFX">
 							<ShortName>lopen op hout_04.wav</ShortName>
-							<Path>SFX\lopen op hout_04_A13C64E2.wem</Path>
+							<Path>SFX\lopen op hout_04_4346FB29.wem</Path>
 						</File>
 						<File Id="873693094" Language="SFX">
 							<ShortName>zandloop_02.wav</ShortName>
@@ -128,7 +137,7 @@
 						</File>
 						<File Id="882275102" Language="SFX">
 							<ShortName>lopen op hout_01.wav</ShortName>
-							<Path>SFX\lopen op hout_01_8890E083.wem</Path>
+							<Path>SFX\lopen op hout_01_B7F69DB6.wem</Path>
 						</File>
 						<File Id="892912427" Language="SFX">
 							<ShortName>grasloop_01.wav</ShortName>
@@ -194,6 +203,42 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2296124049" Name="Play_JumpBegin" ObjectPath="\Events\Default Work Unit\Character\Jump\Play_JumpBegin" DurationType="OneShot" DurationMin="0.204832" DurationMax="0.269327">
+					<IncludedMemoryFiles>
+						<File Id="230689832" Language="SFX">
+							<ShortName>Ebo Jump3.wav</ShortName>
+							<Path>SFX\Ebo Jump3_2FC1C9EA.wem</Path>
+						</File>
+						<File Id="253165710" Language="SFX">
+							<ShortName>Ebo Jump7.wav</ShortName>
+							<Path>SFX\Ebo Jump7_9F56B452.wem</Path>
+						</File>
+						<File Id="394555763" Language="SFX">
+							<ShortName>Ebo Jump6.wav</ShortName>
+							<Path>SFX\Ebo Jump6_ED682E30.wem</Path>
+						</File>
+						<File Id="737939361" Language="SFX">
+							<ShortName>Ebo Jump8.wav</ShortName>
+							<Path>SFX\Ebo Jump8_75C17FD7.wem</Path>
+						</File>
+						<File Id="785779869" Language="SFX">
+							<ShortName>Ebo Jump5.wav</ShortName>
+							<Path>SFX\Ebo Jump5_7B8F4E49.wem</Path>
+						</File>
+						<File Id="789768650" Language="SFX">
+							<ShortName>Ebo Jump4.wav</ShortName>
+							<Path>SFX\Ebo Jump4_0789E79C.wem</Path>
+						</File>
+						<File Id="846495192" Language="SFX">
+							<ShortName>Ebo Jump2.wav</ShortName>
+							<Path>SFX\Ebo Jump2_EB52AA38.wem</Path>
+						</File>
+						<File Id="1011805965" Language="SFX">
+							<ShortName>Ebo Jump1.wav</ShortName>
+							<Path>SFX\Ebo Jump1_30338A8C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Character\Landing\Play_Landing" DurationType="OneShot" DurationMin="0.390875" DurationMax="1.124113">
 					<IncludedMemoryFiles>
 						<File Id="53791480" Language="SFX">
@@ -206,7 +251,7 @@
 						</File>
 						<File Id="121198613" Language="SFX">
 							<ShortName>lopen op hout_05.wav</ShortName>
-							<Path>SFX\lopen op hout_05_85AA5439.wem</Path>
+							<Path>SFX\lopen op hout_05_A60FF654.wem</Path>
 						</File>
 						<File Id="282891463" Language="SFX">
 							<ShortName>grasloop_02.wav</ShortName>
@@ -234,7 +279,7 @@
 						</File>
 						<File Id="850359463" Language="SFX">
 							<ShortName>lopen op hout_04.wav</ShortName>
-							<Path>SFX\lopen op hout_04_A13C64E2.wem</Path>
+							<Path>SFX\lopen op hout_04_4346FB29.wem</Path>
 						</File>
 						<File Id="913057826" Language="SFX">
 							<ShortName>grasloop_03.wav</ShortName>
@@ -309,11 +354,43 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1399408921" Name="Play_Solving_a_puzzle_01" ObjectPath="\Events\Default Work Unit\Music\Play_Solving_a_puzzle_01" DurationType="Infinite">
+				<Event Id="2388497063" Name="Play_Lonely" ObjectPath="\Events\Default Work Unit\Music\Play_Lonely" DurationType="OneShot" DurationMin="58.058208" DurationMax="58.058208">
+					<IncludedMemoryFiles>
+						<File Id="671785146" Language="SFX">
+							<ShortName>Lonely.wav</ShortName>
+							<Path>SFX\Lonely_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3847695549" Name="Play_Solving_a_puzzle" ObjectPath="\Events\Default Work Unit\Music\Play_Solving_a_puzzle" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="409616183" Language="SFX">
 							<ShortName>Solving-a-puzzle.wav</ShortName>
 							<Path>SFX\Solving-a-puzzle_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2039851942" Name="Play_Solving_a_Puzzle__Sief_Arrangement__1" ObjectPath="\Events\Default Work Unit\Music\Play_Solving_a_Puzzle__Sief_Arrangement__1" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="196686994" Language="SFX">
+							<ShortName>Solving a Puzzle (Sief Arrangement)_1.wav</ShortName>
+							<Path>SFX\Solving a Puzzle (Sief Arrangement)_1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2662844813" Name="Play_TempleBunker_2" ObjectPath="\Events\Default Work Unit\Music\Play_TempleBunker_2" DurationType="OneShot" DurationMin="89.964981" DurationMax="89.964981">
+					<IncludedMemoryFiles>
+						<File Id="461181637" Language="SFX">
+							<ShortName>TempleBunker_2.wav</ShortName>
+							<Path>SFX\TempleBunker_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4114669316" Name="Play_Tension" ObjectPath="\Events\Default Work Unit\Music\Play_Tension" DurationType="OneShot" DurationMin="36.925148" DurationMax="36.925148">
+					<IncludedMemoryFiles>
+						<File Id="174656164" Language="SFX">
+							<ShortName>Tension.wav</ShortName>
+							<Path>SFX\Tension_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -6,10 +6,12 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1776466548	SmallerCave			\Default Work Unit\Master Audio Bus\Reverbe\SmallerCave	
 	4122393694	Cave			\Default Work Unit\Master Audio Bus\Reverbe\Cave	
 
 Effect plug-ins	ID	Name	Type				Notes
 	372887513	Medium (Custom)	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

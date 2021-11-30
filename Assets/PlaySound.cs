@@ -10,6 +10,7 @@ public class PlaySound : MonoBehaviour
     [Header("Wwise Events")]
     public AK.Wwise.Event myFootstep;
     public AK.Wwise.Event myLanding;
+    public AK.Wwise.Event myJumpBegin;
 
 
     // Start is called before the first frame update
@@ -35,6 +36,10 @@ public class PlaySound : MonoBehaviour
         {
             myLanding.Post(gameObject);
         }
+    }
+    void JumpBeginPlay()
+    {
+        myJumpBegin.Post(gameObject);
     }
     private int GetMovementState(float speed)
     {

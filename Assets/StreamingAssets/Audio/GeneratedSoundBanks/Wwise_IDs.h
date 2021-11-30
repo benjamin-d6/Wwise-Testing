@@ -13,9 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BUNKER_3_1 = 3431095223U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_JUMPBEGIN = 2296124049U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
-        static const AkUniqueID PLAY_SOLVING_A_PUZZLE_01 = 1399408921U;
+        static const AkUniqueID PLAY_LONELY = 2388497063U;
+        static const AkUniqueID PLAY_SOLVING_A_PUZZLE = 3847695549U;
+        static const AkUniqueID PLAY_SOLVING_A_PUZZLE__SIEF_ARRANGEMENT__1 = 2039851942U;
+        static const AkUniqueID PLAY_TEMPLEBUNKER_2 = 2662844813U;
+        static const AkUniqueID PLAY_TENSION = 4114669316U;
         static const AkUniqueID PLAYAIRTONEDESERTEDROAD = 826353507U;
         static const AkUniqueID PLAYWATERNOISES = 3419015273U;
         static const AkUniqueID STOPWATERNOISES = 846923123U;
@@ -59,6 +65,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID SMALLERCAVE = 1776466548U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
