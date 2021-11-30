@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="WaterAttenuation" ID="{9F02FCB7-6736-4C8B-BEF4-D54D9BB0AEDE}" ShortID="94647924">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="50"/>
+						<Property Name="RadiusMax" Type="Real64" Value="25"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -17,16 +17,16 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>-2.33308</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>28.22165</XPos>
-											<YPos>-6.96853</YPos>
+											<XPos>13.575805</XPos>
+											<YPos>-10.41027</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>25</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -53,8 +53,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
-											<YPos>39</YPos>
+											<XPos>25</XPos>
+											<YPos>55</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

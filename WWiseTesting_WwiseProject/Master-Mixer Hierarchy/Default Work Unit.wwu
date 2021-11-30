@@ -28,7 +28,6 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
-							<ReferenceList/>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Ambient" ID="{44D3FF4C-3B05-41C1-AE7D-C695D1B82363}">
@@ -68,6 +67,14 @@
 													</PropertyList>
 												</Effect>
 											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="SmallerCave" ID="{88376619-7CA4-4980-A7EB-EC12A5A3EB6C}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>

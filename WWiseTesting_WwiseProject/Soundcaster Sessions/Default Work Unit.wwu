@@ -14,10 +14,6 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Solving_a_puzzle_01" ID="{17B1CFF0-A06E-47CA-93CE-3191E50B3116}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Landing" ID="{2017FED6-CC5B-49D7-9833-984F792344B7}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -29,7 +25,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{C0CC7680-598E-4592-9A4A-4B08B9C7B011}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

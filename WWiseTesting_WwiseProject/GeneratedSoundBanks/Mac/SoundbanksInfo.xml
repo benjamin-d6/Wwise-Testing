@@ -44,7 +44,7 @@
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="781318618">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2043903978">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -359,6 +359,22 @@
 						<File Id="671785146" Language="SFX">
 							<ShortName>Lonely.wav</ShortName>
 							<Path>SFX\Lonely_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="261900158" Name="Play_Presure_plate_compress" ObjectPath="\Events\Default Work Unit\Presure_plate\Play_Presure_plate_compress" DurationType="OneShot" DurationMin="1.038233" DurationMax="1.038233">
+					<IncludedMemoryFiles>
+						<File Id="178899459" Language="SFX">
+							<ShortName>Presure plate1.wav</ShortName>
+							<Path>SFX\Presure plate1_0CD3143B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3330584343" Name="Play_Presure_plate_decompress" ObjectPath="\Events\Default Work Unit\Presure_plate\Play_Presure_plate_decompress" DurationType="OneShot" DurationMin="1.245319" DurationMax="1.245319">
+					<IncludedMemoryFiles>
+						<File Id="145836393" Language="SFX">
+							<ShortName>Presure plate2.wav</ShortName>
+							<Path>SFX\Presure plate2_889D920B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

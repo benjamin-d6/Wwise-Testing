@@ -1,9 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	261900158	Play_Presure_plate_compress			\Default Work Unit\Presure_plate\Play_Presure_plate_compress	
 	2039851942	Play_Solving_a_Puzzle__Sief_Arrangement__1			\Default Work Unit\Music\Play_Solving_a_Puzzle__Sief_Arrangement__1	
 	2296124049	Play_JumpBegin			\Default Work Unit\Character\Jump\Play_JumpBegin	
 	2323405115	Play_Landing			\Default Work Unit\Character\Landing\Play_Landing	
 	2388497063	Play_Lonely			\Default Work Unit\Music\Play_Lonely	
 	2662844813	Play_TempleBunker_2			\Default Work Unit\Music\Play_TempleBunker_2	
+	3330584343	Play_Presure_plate_decompress			\Default Work Unit\Presure_plate\Play_Presure_plate_decompress	
 	3431095223	Play_Bunker_3_1			\Default Work Unit\Music\Play_Bunker_3_1	
 	3847695549	Play_Solving_a_puzzle			\Default Work Unit\Music\Play_Solving_a_puzzle	
 	3854155799	Play_Footsteps			\Default Work Unit\Character\Walking\Play_Footsteps	
@@ -26,8 +28,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	69516150	PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _A98966F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\footsteps Dirt\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow		25860
 	80412620	water step4	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\Water\water step4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Footstep Water\water step4		51292
 	121198613	lopen op hout_05	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\lopen op hout_05_A60FF654.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Footsteps Wood\lopen op hout_05		33676
+	145836393	Presure plate2	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\Presure plate2_889D920B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plates\Presure plate2		119614
 	147472232	PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _49B139CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\footsteps Dirt\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow		36602
 	174656164	Tension	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\Tension_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Tension		6513660
+	178899459	Presure plate1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\Presure plate1_0CD3143B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plates\Presure plate1		99734
 	196686994	Solving a Puzzle (Sief Arrangement)_1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\Solving a Puzzle (Sief Arrangement)_1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Solving a Puzzle (Sief Arrangement)_1		18365436
 	230689832	Ebo Jump3	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\Ebo Jump3_2FC1C9EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\JumpBegin\Ebo Jump3		38320
 	253165710	Ebo Jump7	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Windows\SFX\Ebo Jump7_9F56B452.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\JumpBegin\Ebo Jump7		37256

@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID PLAY_JUMPBEGIN = 2296124049U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
         static const AkUniqueID PLAY_LONELY = 2388497063U;
+        static const AkUniqueID PLAY_PRESURE_PLATE_COMPRESS = 261900158U;
+        static const AkUniqueID PLAY_PRESURE_PLATE_DECOMPRESS = 3330584343U;
         static const AkUniqueID PLAY_SOLVING_A_PUZZLE = 3847695549U;
         static const AkUniqueID PLAY_SOLVING_A_PUZZLE__SIEF_ARRANGEMENT__1 = 2039851942U;
         static const AkUniqueID PLAY_TEMPLEBUNKER_2 = 2662844813U;

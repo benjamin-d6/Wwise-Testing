@@ -42,16 +42,86 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Jump" ID="{5216DDD8-72BD-4EF3-A6F9-28654CBD54B4}" ShortID="666846596">
+							<ChildrenList>
+								<Event Name="Play_JumpBegin" ID="{2100F9C3-37B0-4C81-A57A-C75C00C500BD}">
+									<ChildrenList>
+										<Action Name="" ID="{589CB258-5E57-411A-A5CB-5463BBB5C56F}" ShortID="962097647">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="JumpBegin" ID="{1E00FF94-55F3-43ED-895E-2E734746C550}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{3C9924D9-DDE8-4414-AF3F-BCDBA685D0ED}" ShortID="666616392">
 					<ChildrenList>
-						<Event Name="Play_Solving_a_puzzle_01" ID="{17B1CFF0-A06E-47CA-93CE-3191E50B3116}">
+						<Event Name="Play_Solving_a_puzzle" ID="{5B957176-42D1-4DA2-9BA8-2C0863288E19}">
 							<ChildrenList>
-								<Action Name="" ID="{BE36B74E-1C53-4FDB-ABB6-F9ADA29B2E04}" ShortID="61579754">
+								<Action Name="" ID="{A4F9CEB8-ECD8-4CF0-A102-60715C9581D0}" ShortID="496146289">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Solving-a-puzzle" ID="{A88BE990-9182-45C1-950A-3ADDE753A5A0}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bunker_3_1" ID="{9A1C5CDE-0941-4031-8EDE-39B6D543B957}">
+							<ChildrenList>
+								<Action Name="" ID="{E1B4EE39-DFC2-4B98-8388-97CE9B79C1DE}" ShortID="574218813">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bunker 3_1" ID="{9D0586E0-0E91-478A-B0D8-325ECD416741}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Tension" ID="{B4CEFE2F-75C3-42E7-842E-38A0C6C4F809}">
+							<ChildrenList>
+								<Action Name="" ID="{63C07C73-699A-45BC-8B1E-B5E4BFA576FB}" ShortID="1025722398">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tension" ID="{A6763FBD-480F-45DA-95D1-57DE70AF1E70}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lonely" ID="{2D7E6A67-E85F-4688-9672-1823DB9994B9}">
+							<ChildrenList>
+								<Action Name="" ID="{B6E3ED3F-C923-4FE5-84CC-DE6F9A98B943}" ShortID="48269002">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lonely" ID="{70A7D194-6B85-4063-9F48-80F65D0BE2E4}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Solving_a_Puzzle__Sief_Arrangement__1" ID="{782E130D-FBDD-4914-987E-33FA526E72A1}">
+							<ChildrenList>
+								<Action Name="" ID="{24382274-E386-4822-A958-334897300F79}" ShortID="230909226">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Solving a Puzzle (Sief Arrangement)_1" ID="{E43B07D6-19B6-4BDC-BEA6-4717CD8121DE}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_TempleBunker_2" ID="{6F2527EA-A516-4469-B12A-8E1E2905DFD1}">
+							<ChildrenList>
+								<Action Name="" ID="{BA5EA527-CF6A-4B2D-93F6-A0BDDC770FF5}" ShortID="920150169">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TempleBunker_2" ID="{91590014-D533-4FEC-96B4-2EEA7EADEDB0}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -92,6 +162,32 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="WaterNoises" ID="{C264E6CB-4C27-4E2E-BDDD-270128D8A9A1}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Presure_plate" ID="{8541B9C3-5857-483F-97F2-084E67C6EC0C}" ShortID="121742901">
+					<ChildrenList>
+						<Event Name="Play_Presure_plate_compress" ID="{07C606EE-0CE8-4F34-A5AD-A8E3D5E31798}">
+							<ChildrenList>
+								<Action Name="" ID="{D815E0D4-9B05-4C98-8CC6-7BB76D17FEEF}" ShortID="991700555">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Presure plate1" ID="{9F40DDE4-4312-4266-AA19-10ABB3507DC5}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Presure_plate_decompress" ID="{38F26206-FFF6-4810-A279-BAF0709221F4}">
+							<ChildrenList>
+								<Action Name="" ID="{399D79B3-C6F3-458D-BEED-1615726323BC}" ShortID="527428965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Presure plate2" ID="{D4BD81B4-BA00-482E-9445-CE40D7800213}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

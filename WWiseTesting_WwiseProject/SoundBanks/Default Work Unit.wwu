@@ -5,8 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{9E891220-C509-4EBB-9DC5-8CED7400F97D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Solving_a_puzzle_01" ID="{17B1CFF0-A06E-47CA-93CE-3191E50B3116}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{3C9924D9-DDE8-4414-AF3F-BCDBA685D0ED}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Presure_plate" ID="{8541B9C3-5857-483F-97F2-084E67C6EC0C}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Landing" ID="{2017FED6-CC5B-49D7-9833-984F792344B7}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_JumpBegin" ID="{2100F9C3-37B0-4C81-A57A-C75C00C500BD}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{F5CA93C4-99A3-4E8F-84D7-E4568B12EA37}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

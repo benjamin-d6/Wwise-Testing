@@ -36,6 +36,129 @@
 								<ActiveSource Name="Solving-a-puzzle" ID="{EE0626A7-199B-4A15-8E32-F10CF9DDD6CE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Bunker 3_1" ID="{9D0586E0-0E91-478A-B0D8-325ECD416741}" ShortID="8754399">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bunker 3_1" ID="{06BF185C-0121-4484-9888-C11B5BA45C1D}">
+									<Language>SFX</Language>
+									<AudioFile>Bunker 3_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="481610931"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Bunker 3_1" ID="{06BF185C-0121-4484-9888-C11B5BA45C1D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lonely" ID="{70A7D194-6B85-4063-9F48-80F65D0BE2E4}" ShortID="740024573">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lonely" ID="{63E503BB-1AE6-4E73-BC95-5EA7C95D244C}">
+									<Language>SFX</Language>
+									<AudioFile>Lonely.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="671785146"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Lonely" ID="{63E503BB-1AE6-4E73-BC95-5EA7C95D244C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Solving a Puzzle (Sief Arrangement)_1" ID="{E43B07D6-19B6-4BDC-BEA6-4717CD8121DE}" ShortID="524623180">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Solving a Puzzle (Sief Arrangement)_1" ID="{87BD9400-EB08-4FF7-973A-DC24451BCFB3}">
+									<Language>SFX</Language>
+									<AudioFile>Solving a Puzzle (Sief Arrangement)_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="196686994"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Solving a Puzzle (Sief Arrangement)_1" ID="{87BD9400-EB08-4FF7-973A-DC24451BCFB3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TempleBunker_2" ID="{91590014-D533-4FEC-96B4-2EEA7EADEDB0}" ShortID="468991892">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TempleBunker_2" ID="{29F8AA60-C50D-4024-82F8-5ACF91FD7380}">
+									<Language>SFX</Language>
+									<AudioFile>TempleBunker_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="461181637"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TempleBunker_2" ID="{29F8AA60-C50D-4024-82F8-5ACF91FD7380}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tension" ID="{A6763FBD-480F-45DA-95D1-57DE70AF1E70}" ShortID="917581104">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tension" ID="{ECAF0F84-AFCD-4516-8B5D-F0590D98B944}">
+									<Language>SFX</Language>
+									<AudioFile>Tension.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="174656164"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tension" ID="{ECAF0F84-AFCD-4516-8B5D-F0590D98B944}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{9B0A08E7-6B4B-47B2-8CDA-156A39E6158C}" ShortID="192193976">
@@ -43,6 +166,16 @@
 						<SwitchContainer Name="Footsteps" ID="{843B17C0-B5FB-470A-A269-6C9E2C336C32}" ShortID="17893506">
 							<PropertyList>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8EBAC57B-A94C-4305-84D8-3293587D44BF}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1614,6 +1747,281 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="JumpBegin" ID="{1E00FF94-55F3-43ED-895E-2E734746C550}" ShortID="990135663">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{492CFE5E-ED78-434B-AFC0-C0551B85E2EF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ebo Jump1" ID="{9ABAD1E7-6A27-4F0F-B476-B02167770D2C}" ShortID="483452922">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump1" ID="{9C676BF6-118C-43AF-803E-26AB1C4E956F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0316318489130432"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0284555594877643"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.255210799155886"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.486412219993971"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1011805965"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump1" ID="{9C676BF6-118C-43AF-803E-26AB1C4E956F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ebo Jump2" ID="{25958421-FD6A-4B07-BB0E-E4D4FFA80E99}" ShortID="915183384">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump2" ID="{77CDF625-10E3-4645-AE17-DAEFBE5D4F43}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0453947808631649"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0232017768856176"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.130131705141073"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.354079290732686"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846495192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump2" ID="{77CDF625-10E3-4645-AE17-DAEFBE5D4F43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ebo Jump3" ID="{F8DEA574-362D-42C5-B5D6-F9BCEB5F01A0}" ShortID="921449844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump3" ID="{945A74EE-9E4E-475F-8DDC-ECB7B94BFEE4}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0201754581614066"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0201754581614066"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.222938812683543"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.439824987918665"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="230689832"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump3" ID="{945A74EE-9E4E-475F-8DDC-ECB7B94BFEE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ebo Jump4" ID="{2320883B-6A06-44DF-8663-4E3E6D5463BA}" ShortID="649936190">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump4" ID="{BE8A9288-2C51-4732-B56F-0B0CD9681DC8}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0413596892308836"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0403509163228133"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.224956358499684"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.479167131333408"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="789768650"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump4" ID="{BE8A9288-2C51-4732-B56F-0B0CD9681DC8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ebo Jump5" ID="{5F2FE97A-14B4-45BA-AD7B-85412498523F}" ShortID="998592600">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump5" ID="{B2C6F67A-E3AA-4017-86BF-3651F8BA0D45}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.015131593621055"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0433772350470242"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.222938812683543"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.439824987918665"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="785779869"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump5" ID="{B2C6F67A-E3AA-4017-86BF-3651F8BA0D45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ebo Jump6" ID="{43CB9C0B-3EC7-4F7B-B1E8-9FADD548DFCA}" ShortID="975116845">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump6" ID="{CA579781-09DC-4FA2-A188-D60BE3E76A69}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0373245975986023"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.018157912345266"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.12004397606037"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.358114382364968"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="394555763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump6" ID="{CA579781-09DC-4FA2-A188-D60BE3E76A69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ebo Jump7" ID="{A2A67A64-9545-4459-BC99-85C47BC3F8EB}" ShortID="1051931987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump7" ID="{222E1063-5A63-4EE8-B298-66A5934D3F0D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0262280956098286"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0232017768856176"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0575000557600089"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.268333593546708"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="253165710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump7" ID="{222E1063-5A63-4EE8-B298-66A5934D3F0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ebo Jump8" ID="{EF0D9F3D-90E9-4465-A181-1B99714F87E8}" ShortID="32049905">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ebo Jump8" ID="{1D7CAE17-2133-4C20-BA67-A41D89E58129}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.018157912345266"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0232017768856176"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.178552804728449"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.417631983941117"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ebo Jump8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737939361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ebo Jump8" ID="{1D7CAE17-2133-4C20-BA67-A41D89E58129}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambient" ID="{D9B96C11-25D8-4877-896A-01577B229D40}" ShortID="362482331">
@@ -1677,6 +2085,70 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Scotch - loch lochy small quiet waves wavelets ripple lake water movement - LR" ID="{3CF7B779-F640-499E-B2AD-9866207340C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Plates" ID="{D7367541-2115-4EC7-B06A-C13C8B435EA3}" ShortID="330684568">
+					<ChildrenList>
+						<Sound Name="Presure plate1" ID="{9F40DDE4-4312-4266-AA19-10ABB3507DC5}" ShortID="263014370">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Presure plate1" ID="{981829A7-879F-401B-94B4-2F67F9C7D741}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.181900590077071"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.181900590077071"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.498127769749519"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.53636036849711"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Presure plate1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="178899459"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Presure plate1" ID="{981829A7-879F-401B-94B4-2F67F9C7D741}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Presure plate2" ID="{D4BD81B4-BA00-482E-9445-CE40D7800213}" ShortID="696223930">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6730524B-9ACC-4CBC-BCBE-348ABF4E0EDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Presure plate2" ID="{D521FAE3-73B5-4B8F-93A7-0CAF8FC3111A}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.277048591040462"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.134326589595376"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.041977059248555"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.28729648362235"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Presure plate2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145836393"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Presure plate2" ID="{D521FAE3-73B5-4B8F-93A7-0CAF8FC3111A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
