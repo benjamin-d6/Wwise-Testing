@@ -36,7 +36,7 @@
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2837387358">
+		<SoundBank Id="3161908922" Language="SFX" Hash="556846255">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -401,6 +401,51 @@
 							<Path>SFX\Tension_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2921490336" Name="Play_Walking_CC" ObjectPath="\Events\Default Work Unit\Character\CC\Walking\Play_Walking_CC" DurationType="OneShot" DurationMin="0.218165" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="21213474" Language="SFX">
+							<ShortName>cc4.wav</ShortName>
+							<Path>SFX\cc4_10C4C929.wem</Path>
+						</File>
+						<File Id="219534568" Language="SFX">
+							<ShortName>cc5.wav</ShortName>
+							<Path>SFX\cc5_10C4C929.wem</Path>
+						</File>
+						<File Id="259832615" Language="SFX">
+							<ShortName>cc7.wav</ShortName>
+							<Path>SFX\cc7_10C4C929.wem</Path>
+						</File>
+						<File Id="507586919" Language="SFX">
+							<ShortName>cc6.wav</ShortName>
+							<Path>SFX\cc6_10C4C929.wem</Path>
+						</File>
+						<File Id="559120795" Language="SFX">
+							<ShortName>cc3.wav</ShortName>
+							<Path>SFX\cc3_10C4C929.wem</Path>
+						</File>
+						<File Id="658987273" Language="SFX">
+							<ShortName>cc1.wav</ShortName>
+							<Path>SFX\cc1_10C4C929.wem</Path>
+						</File>
+						<File Id="930525376" Language="SFX">
+							<ShortName>cc2.wav</ShortName>
+							<Path>SFX\cc2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}">
+							<Media>
+								<File Id="21213474"/>
+								<File Id="219534568"/>
+								<File Id="259832615"/>
+								<File Id="507586919"/>
+								<File Id="559120795"/>
+								<File Id="658987273"/>
+								<File Id="930525376"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
 			<SwitchGroups>

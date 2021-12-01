@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_SOLVING_A_PUZZLE__SIEF_ARRANGEMENT__1 = 2039851942U;
         static const AkUniqueID PLAY_TEMPLEBUNKER_2 = 2662844813U;
         static const AkUniqueID PLAY_TENSION = 4114669316U;
+        static const AkUniqueID PLAY_WALKING_CC = 2921490336U;
         static const AkUniqueID PLAYWATERNOISES = 3419015273U;
         static const AkUniqueID STOPWATERNOISES = 846923123U;
     } // namespace EVENTS

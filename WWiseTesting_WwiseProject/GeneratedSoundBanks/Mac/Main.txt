@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2323405115	Play_Landing			\Default Work Unit\Character\Ebo\Landing\Play_Landing	
 	2388497063	Play_Lonely			\Default Work Unit\Music\Play_Lonely	
 	2662844813	Play_TempleBunker_2			\Default Work Unit\Music\Play_TempleBunker_2	
+	2921490336	Play_Walking_CC			\Default Work Unit\Character\CC\Walking\Play_Walking_CC	
 	3330584343	Play_Presure_plate_decompress			\Default Work Unit\Presure_plate\Play_Presure_plate_decompress	
 	3431095223	Play_Bunker_3_1			\Default Work Unit\Music\Play_Bunker_3_1	
 	3847695549	Play_Solving_a_puzzle			\Default Work Unit\Music\Play_Solving_a_puzzle	
@@ -29,6 +30,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	OnCrouch			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21213474	cc4	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\cc4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CC\Walking\stone\cc4		88264
 	53791480	zandloop_03	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\zandloop_03_42021BD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step2\zandloop_03		76850
 	68380245	steenloop 3	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\steenloop 3_1FF91BD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\Footsteps stone\steenloop 3		65732
 	69516150	PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _A98966F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\footsteps Dirt\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow		25860
@@ -39,8 +41,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	174656164	Tension	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Tension_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Tension		6513660
 	178899459	Presure plate1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Presure plate1_D155986B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plates\Presure plate1		99734
 	196686994	Solving a Puzzle (Sief Arrangement)_1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Solving a Puzzle (Sief Arrangement)_1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Solving a Puzzle (Sief Arrangement)_1		18365436
+	219534568	cc5	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\cc5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CC\Walking\stone\cc5		79432
 	230689832	Ebo Jump3	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Ebo Jump3_A9009F1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\JumpBegin\Ebo Jump3		38320
 	253165710	Ebo Jump7	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Ebo Jump7_F51DC5E1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\JumpBegin\Ebo Jump7		37256
+	259832615	cc7	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\cc7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CC\Walking\stone\cc7		43524
 	282891463	grasloop_02	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\grasloop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step1\grasloop_02		45628
 	289688904	PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _D0E69551.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step2\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow		27836
 	301709278	water step 1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Water\water step 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\Footstep Water\water step 1		48732
@@ -54,9 +58,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	461181637	TempleBunker_2	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\TempleBunker_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TempleBunker_2		17273340
 	472837230	PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\PMSFX - STEPS Dry Grass & Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _7D051DF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step1\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow		34636
 	481610931	Bunker 3_1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Bunker 3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Bunker 3_1		23056380
+	507586919	cc6	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\cc6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CC\Walking\stone\cc6		39676
 	510681431	steenloop 4	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\steenloop 4_425C87AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\Footsteps stone\steenloop 4		50554
 	515794795	water step3	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Water\water step3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\Footstep Water\water step3		47944
+	559120795	cc3	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\cc3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CC\Walking\stone\cc3		55988
 	644335690	water step5	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Water\water step5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\Footstep Water\water step5		61536
+	658987273	cc1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\cc1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CC\Walking\stone\cc1		88264
 	662582090	SteenSprong 1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\SteenSprong 1_BD4FEB46.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step1\SteenSprong 1		73970
 	666486424	SteenSprong 2	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\SteenSprong 2_E60A7029.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step2\SteenSprong 2		33926
 	671785146	Lonely	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Lonely_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Lonely		10241532
@@ -71,6 +78,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	882275102	lopen op hout_01	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\lopen op hout_01_B7F69DB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\Footsteps Wood\lopen op hout_01		29572
 	892912427	grasloop_01	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\grasloop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\Footsteps\Footsteps Grass\grasloop_01		44488
 	913057826	grasloop_03	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\grasloop_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step2\grasloop_03		50184
+	930525376	cc2	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\cc2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CC\Walking\stone\cc2		63116
 	960585968	water step2	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Water\water step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\landing\step2\water step2		36712
 	1011805965	Ebo Jump1	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Ebo Jump1_B5E9A882.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Ebo\JumpBegin\Ebo Jump1		40848
 
