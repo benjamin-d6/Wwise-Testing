@@ -63,7 +63,21 @@
 						</Folder>
 						<Folder Name="CC" ID="{215A3D65-DA1F-4A4E-84B4-6ED9C5E386D4}" ShortID="432043637">
 							<ChildrenList>
-								<Folder Name="Walking" ID="{319547CD-BF63-4DB3-9CF5-6BEAEAE88428}" ShortID="691201202"/>
+								<Folder Name="Walking" ID="{319547CD-BF63-4DB3-9CF5-6BEAEAE88428}" ShortID="691201202">
+									<ChildrenList>
+										<Event Name="Play_Walking_CC" ID="{E1235A91-A563-45B8-837F-4C7576FF5F81}">
+											<ChildrenList>
+												<Action Name="" ID="{D54CBF36-A285-47F3-B8A2-078203876ECE}" ShortID="992578567">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Walking" ID="{1F5ED9DE-3E27-439F-AC72-2D27087610B2}" WorkUnitID="{0A623302-DF1F-4BAE-991A-671F45D699D0}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

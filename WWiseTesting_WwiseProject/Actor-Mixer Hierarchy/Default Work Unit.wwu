@@ -2047,6 +2047,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F244B673-A898-417A-BE0C-6A4F236F5227}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Footsteps" ID="{3B8624E6-BD12-4E01-8C98-E5451835F1FC}" WorkUnitID="{54638A97-4DFF-4066-9D3A-9A2859501CE4}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="stone" ID="{C34E537B-B240-49C5-BE74-D63A5B1C885C}" ShortID="384026593">
@@ -2262,6 +2265,14 @@
 												<ItemRef Name="stone" ID="{C34E537B-B240-49C5-BE74-D63A5B1C885C}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}"/>
+												<ItemList>
+													<ItemRef Name="stone" ID="{C34E537B-B240-49C5-BE74-D63A5B1C885C}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<Folder Name="Noises" ID="{1F836335-86E9-4774-BE5C-A912B500985D}" ShortID="586305106"/>

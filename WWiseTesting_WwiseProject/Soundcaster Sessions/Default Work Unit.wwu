@@ -21,7 +21,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stone" ID="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}"/>
+						<CurrentSwitchRef Name="Sand" ID="{813E1EE3-BAE2-4757-A906-51FADBAE7B24}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
