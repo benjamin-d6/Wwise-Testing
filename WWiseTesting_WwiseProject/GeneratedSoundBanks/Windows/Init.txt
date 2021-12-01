@@ -1,3 +1,9 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3788308000	OnCrouch			\Default Work Unit\OnCrouch	
+
+State	ID	Name	State Group			Notes
+	748895195	None	OnCrouch			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Footsteps	

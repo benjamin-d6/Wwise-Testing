@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlaySound : MonoBehaviour
+public class PlaySoundPlayer : MonoBehaviour
 {
     Animator m_Animator;
     public ThirdPersonController TMovement;

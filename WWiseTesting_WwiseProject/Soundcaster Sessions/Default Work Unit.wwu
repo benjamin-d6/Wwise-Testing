@@ -6,10 +6,6 @@
 				<SoundcasterSession Name="Testing" ID="{945D9BE8-B2EE-4462-908B-583F7AED817D}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="PlayAirToneDesertedRoad" ID="{28A33D3E-260A-46C1-823B-3D251E26419B}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="PlayWaterNoises" ID="{1760E3E3-2038-42DA-B4B1-7D94274A5562}" WorkUnitID="{AC603552-5A78-42FB-872F-6C8EB5DFEF57}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -25,7 +21,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dirt" ID="{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}"/>
+						<CurrentSwitchRef Name="Stone" ID="{D72A1733-E5F0-4CA8-9C85-0C7C3F73D77B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

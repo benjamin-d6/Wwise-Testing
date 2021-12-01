@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 73b644f298a87a41be0c6a4f236f5227
     GuidInternal: 
-    m_lastTime: -8585634445858373129
+    m_lastTime: -8585633299390006296
     List:
     - name: Ambient
       guid: 4cffd344053bc141ae7dc695d1b82363
@@ -142,6 +142,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: d5fd2ac4b0a22b4bba6f304686ae4aea
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe
+    - name: SmallerCave
+      guid: 19663788a47c8049a7ebec12a5a3eb6c
+      id: 1776466548
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 73b644f298a87a41be0c6a4f236f5227
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbe
+        ObjectType: 2
+        guid: d5fd2ac4b0a22b4bba6f304686ae4aea
+      - ElementName: SmallerCave
+        ObjectType: 1
+        guid: 19663788a47c8049a7ebec12a5a3eb6c
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\SmallerCave
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -154,7 +174,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fcbd133c54d0d74fb307263eda60a6c5
     GuidInternal: 
-    m_lastTime: -8585634419623183198
+    m_lastTime: -8585632591366909186
     List:
     - name: Main
       guid: 2012899e09c5bb4e9dc58ced7400f97d
@@ -196,7 +216,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 523560ac785afb42872f6c8eb5dfef57
     GuidInternal: 
-    m_lastTime: -8585634491189312551
+    m_lastTime: -8585632591366370617
     List:
     - name: Ambient
       guid: 7e5e4863396a404399e81e04f2f16c23
@@ -212,6 +232,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 7e5e4863396a404399e81e04f2f16c23
       Path: Events\Default Work Unit\Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CC
+      guid: 653d5a211fda4e4a84b46ed9c5e386d4
+      id: 1853303383
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: CC
+        ObjectType: 4
+        guid: 653d5a211fda4e4a84b46ed9c5e386d4
+      Path: Events\Default Work Unit\Character\CC
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -232,6 +272,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Doors
+      guid: 8e54d9480d2740409cefff377eafbaec
+      id: 2150196036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 8e54d9480d2740409cefff377eafbaec
+      Path: Events\Default Work Unit\Doors
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ebo
+      guid: 390c2d9328a84548872264f89ada9360
+      id: 731058027
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: Ebo
+        ObjectType: 4
+        guid: 390c2d9328a84548872264f89ada9360
+      Path: Events\Default Work Unit\Character\Ebo
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jump
+      guid: d8dd1652bd72f34ea6f928654cbd54b4
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: Ebo
+        ObjectType: 4
+        guid: 390c2d9328a84548872264f89ada9360
+      - ElementName: Jump
+        ObjectType: 4
+        guid: d8dd1652bd72f34ea6f928654cbd54b4
+      Path: Events\Default Work Unit\Character\Ebo\Jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Landing
       guid: b3756687a1d8cb428fe506b5c6a5e10a
       id: 2548270042
@@ -245,10 +345,13 @@ MonoBehaviour:
       - ElementName: Character
         ObjectType: 4
         guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: Ebo
+        ObjectType: 4
+        guid: 390c2d9328a84548872264f89ada9360
       - ElementName: Landing
         ObjectType: 4
         guid: b3756687a1d8cb428fe506b5c6a5e10a
-      Path: Events\Default Work Unit\Character\Landing
+      Path: Events\Default Work Unit\Character\Ebo\Landing
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -269,6 +372,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_airlockDoor_Close1
+      guid: d99f90b893b6144182aa9c0ef6408593
+      id: 3974977655
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 8e54d9480d2740409cefff377eafbaec
+      - ElementName: Play_airlockDoor_Close1
+        ObjectType: 3
+        guid: d99f90b893b6144182aa9c0ef6408593
+      Path: Events\Default Work Unit\Doors\Play_airlockDoor_Close1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Bunker_3_1
+      guid: de5c1c9a410931408ede39b6d543b957
+      id: 3431095223
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Music
+        ObjectType: 4
+        guid: d924993ce8dd1444af3fbcdba685d0ed
+      - ElementName: Play_Bunker_3_1
+        ObjectType: 3
+        guid: de5c1c9a410931408ede39b6d543b957
+      Path: Events\Default Work Unit\Music\Play_Bunker_3_1
+      maxAttenuation: 0
+      maxDuration: 120.08498
+      minDuration: 120.08498
     - name: Play_Footsteps
       guid: c493caf5a3998f4e84d7e4568b12ea37
       id: 3854155799
@@ -282,16 +425,45 @@ MonoBehaviour:
       - ElementName: Character
         ObjectType: 4
         guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: Ebo
+        ObjectType: 4
+        guid: 390c2d9328a84548872264f89ada9360
       - ElementName: Walking
         ObjectType: 4
         guid: 737d5927e20e65489b393792175576d4
       - ElementName: Play_Footsteps
         ObjectType: 3
         guid: c493caf5a3998f4e84d7e4568b12ea37
-      Path: Events\Default Work Unit\Character\Walking\Play_Footsteps
-      maxAttenuation: 0
+      Path: Events\Default Work Unit\Character\Ebo\Walking\Play_Footsteps
+      maxAttenuation: 50
       maxDuration: 1.027396
       minDuration: 0.164923
+    - name: Play_JumpBegin
+      guid: c3f90021b037814ca57ac75c00c500bd
+      id: 2296124049
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: Ebo
+        ObjectType: 4
+        guid: 390c2d9328a84548872264f89ada9360
+      - ElementName: Jump
+        ObjectType: 4
+        guid: d8dd1652bd72f34ea6f928654cbd54b4
+      - ElementName: Play_JumpBegin
+        ObjectType: 3
+        guid: c3f90021b037814ca57ac75c00c500bd
+      Path: Events\Default Work Unit\Character\Ebo\Jump\Play_JumpBegin
+      maxAttenuation: 0
+      maxDuration: 0.269327
+      minDuration: 0.204832
     - name: Play_Landing
       guid: d6fe17205bccd7499833984f792344b7
       id: 2323405115
@@ -305,19 +477,22 @@ MonoBehaviour:
       - ElementName: Character
         ObjectType: 4
         guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: Ebo
+        ObjectType: 4
+        guid: 390c2d9328a84548872264f89ada9360
       - ElementName: Landing
         ObjectType: 4
         guid: b3756687a1d8cb428fe506b5c6a5e10a
       - ElementName: Play_Landing
         ObjectType: 3
         guid: d6fe17205bccd7499833984f792344b7
-      Path: Events\Default Work Unit\Character\Landing\Play_Landing
+      Path: Events\Default Work Unit\Character\Ebo\Landing\Play_Landing
       maxAttenuation: 0
       maxDuration: 1.124113
       minDuration: 0.390875
-    - name: Play_Solving_a_puzzle_01
-      guid: f0cfb1176ea0ca4793ce3191e50b3116
-      id: 1399408921
+    - name: Play_Lonely
+      guid: 676a7e2d5fe8884696721823db9994b9
+      id: 2388497063
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -328,13 +503,133 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: d924993ce8dd1444af3fbcdba685d0ed
-      - ElementName: Play_Solving_a_puzzle_01
+      - ElementName: Play_Lonely
         ObjectType: 3
-        guid: f0cfb1176ea0ca4793ce3191e50b3116
-      Path: Events\Default Work Unit\Music\Play_Solving_a_puzzle_01
+        guid: 676a7e2d5fe8884696721823db9994b9
+      Path: Events\Default Work Unit\Music\Play_Lonely
+      maxAttenuation: 0
+      maxDuration: 58.05821
+      minDuration: 58.05821
+    - name: Play_Presure_plate_compress
+      guid: ee06c607e80c344fa5ada8e3d5e31798
+      id: 261900158
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Presure_plate
+        ObjectType: 4
+        guid: c3b9418557583f4897f2084e67c6ec0c
+      - ElementName: Play_Presure_plate_compress
+        ObjectType: 3
+        guid: ee06c607e80c344fa5ada8e3d5e31798
+      Path: Events\Default Work Unit\Presure_plate\Play_Presure_plate_compress
+      maxAttenuation: 0
+      maxDuration: 1.038233
+      minDuration: 1.038233
+    - name: Play_Presure_plate_decompress
+      guid: 0662f238f6ff1048a279baf0709221f4
+      id: 3330584343
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Presure_plate
+        ObjectType: 4
+        guid: c3b9418557583f4897f2084e67c6ec0c
+      - ElementName: Play_Presure_plate_decompress
+        ObjectType: 3
+        guid: 0662f238f6ff1048a279baf0709221f4
+      Path: Events\Default Work Unit\Presure_plate\Play_Presure_plate_decompress
+      maxAttenuation: 0
+      maxDuration: 1.245319
+      minDuration: 1.245319
+    - name: Play_Solving_a_puzzle
+      guid: 7671955bd142a24d9ba82c0863288e19
+      id: 3847695549
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Music
+        ObjectType: 4
+        guid: d924993ce8dd1444af3fbcdba685d0ed
+      - ElementName: Play_Solving_a_puzzle
+        ObjectType: 3
+        guid: 7671955bd142a24d9ba82c0863288e19
+      Path: Events\Default Work Unit\Music\Play_Solving_a_puzzle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Solving_a_Puzzle__Sief_Arrangement__1
+      guid: 0d132e78ddfb1449987e33fa526e72a1
+      id: 2039851942
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Music
+        ObjectType: 4
+        guid: d924993ce8dd1444af3fbcdba685d0ed
+      - ElementName: Play_Solving_a_Puzzle__Sief_Arrangement__1
+        ObjectType: 3
+        guid: 0d132e78ddfb1449987e33fa526e72a1
+      Path: Events\Default Work Unit\Music\Play_Solving_a_Puzzle__Sief_Arrangement__1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TempleBunker_2
+      guid: ea27256f16a56944b12a8e1e2905dfd1
+      id: 2662844813
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Music
+        ObjectType: 4
+        guid: d924993ce8dd1444af3fbcdba685d0ed
+      - ElementName: Play_TempleBunker_2
+        ObjectType: 3
+        guid: ea27256f16a56944b12a8e1e2905dfd1
+      Path: Events\Default Work Unit\Music\Play_TempleBunker_2
+      maxAttenuation: 0
+      maxDuration: 89.96498
+      minDuration: 89.96498
+    - name: Play_Tension
+      guid: 2ffeceb4c375e742842e38a0c6c4f809
+      id: 4114669316
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Music
+        ObjectType: 4
+        guid: d924993ce8dd1444af3fbcdba685d0ed
+      - ElementName: Play_Tension
+        ObjectType: 3
+        guid: 2ffeceb4c375e742842e38a0c6c4f809
+      Path: Events\Default Work Unit\Music\Play_Tension
+      maxAttenuation: 0
+      maxDuration: 36.925148
+      minDuration: 36.925148
     - name: PlayAirToneDesertedRoad
       guid: 3e3da3280a26c146823b3d251e26419b
       id: 826353507
@@ -372,7 +667,24 @@ MonoBehaviour:
         ObjectType: 3
         guid: e3e360173820da42b4b17d94274a5562
       Path: Events\Default Work Unit\Ambient\PlayWaterNoises
-      maxAttenuation: 50
+      maxAttenuation: 25
+      maxDuration: -1
+      minDuration: -1
+    - name: Presure_plate
+      guid: c3b9418557583f4897f2084e67c6ec0c
+      id: 2652860282
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Presure_plate
+        ObjectType: 4
+        guid: c3b9418557583f4897f2084e67c6ec0c
+      Path: Events\Default Work Unit\Presure_plate
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: StopWaterNoises
@@ -408,10 +720,36 @@ MonoBehaviour:
       - ElementName: Character
         ObjectType: 4
         guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: Ebo
+        ObjectType: 4
+        guid: 390c2d9328a84548872264f89ada9360
       - ElementName: Walking
         ObjectType: 4
         guid: 737d5927e20e65489b393792175576d4
-      Path: Events\Default Work Unit\Character\Walking
+      Path: Events\Default Work Unit\Character\Ebo\Walking
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Walking
+      guid: cd47953163bfb34d9cf56beaeae88428
+      id: 340271938
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 523560ac785afb42872f6c8eb5dfef57
+      - ElementName: Character
+        ObjectType: 4
+        guid: de48a3bf34b4744381e5ced58cd329d9
+      - ElementName: CC
+        ObjectType: 4
+        guid: 653d5a211fda4e4a84b46ed9c5e386d4
+      - ElementName: Walking
+        ObjectType: 4
+        guid: cd47953163bfb34d9cf56beaeae88428
+      Path: Events\Default Work Unit\Character\CC\Walking
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -441,8 +779,42 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a80a490442229b45ac6bd07b28db60f2
     GuidInternal: 
-    m_lastTime: -8585636991489365914
-    List: []
+    m_lastTime: -8585632591366600010
+    List:
+    - name: OnCrouch
+      guid: 4ffe96dd18989a458c816b0c757bf1e7
+      id: 3788308000
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a80a490442229b45ac6bd07b28db60f2
+      - ElementName: OnCrouch
+        ObjectType: 9
+        guid: 4ffe96dd18989a458c816b0c757bf1e7
+      Path: States\Default Work Unit\OnCrouch
+      values:
+      - name: None
+        guid: b686bf0dc97f6b4ba41a689aa8b985a8
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a80a490442229b45ac6bd07b28db60f2
+        - ElementName: OnCrouch
+          ObjectType: 9
+          guid: 4ffe96dd18989a458c816b0c757bf1e7
+        - ElementName: None
+          ObjectType: 8
+          guid: b686bf0dc97f6b4ba41a689aa8b985a8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -585,8 +957,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585636991489355996
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000f0000001100000012000000130000001a0000002000000027000000dc000000dd000000de0000003cf50600
+  ExpandedFileSystemItemIds: 28000000290000002a0000002c000000
+  ExpandedWaapiItemIds: 28000000290000002a0000002c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

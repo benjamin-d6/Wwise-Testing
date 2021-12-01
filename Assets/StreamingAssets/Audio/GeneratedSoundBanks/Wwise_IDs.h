@@ -24,10 +24,23 @@ namespace AK
         static const AkUniqueID PLAY_SOLVING_A_PUZZLE__SIEF_ARRANGEMENT__1 = 2039851942U;
         static const AkUniqueID PLAY_TEMPLEBUNKER_2 = 2662844813U;
         static const AkUniqueID PLAY_TENSION = 4114669316U;
-        static const AkUniqueID PLAYAIRTONEDESERTEDROAD = 826353507U;
         static const AkUniqueID PLAYWATERNOISES = 3419015273U;
         static const AkUniqueID STOPWATERNOISES = 846923123U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace ONCROUCH
+        {
+            static const AkUniqueID GROUP = 3788308000U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace ONCROUCH
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

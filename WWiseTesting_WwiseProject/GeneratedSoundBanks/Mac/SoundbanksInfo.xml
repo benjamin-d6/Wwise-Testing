@@ -11,19 +11,11 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="890296786" Language="SFX" Hash="1744740031">
+		<SoundBank Id="890296786" Language="SFX" Hash="3861910828">
 			<ObjectPath>\SoundBanks\Default Work Unit\Second_main_Git</ObjectPath>
 			<ShortName>Second_main_Git</ShortName>
 			<Path>Second_main_Git.bnk</Path>
 			<IncludedEvents>
-				<Event Id="826353507" Name="PlayAirToneDesertedRoad" ObjectPath="\Events\Default Work Unit\Ambient\PlayAirToneDesertedRoad" DurationType="OneShot" DurationMin="262.043121" DurationMax="262.043121">
-					<IncludedMemoryFiles>
-						<File Id="787650316" Language="SFX">
-							<ShortName>Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR.wav</ShortName>
-							<Path>SFX\Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="3419015273" Name="PlayWaterNoises" ObjectPath="\Events\Default Work Unit\Ambient\PlayWaterNoises" MaxAttenuation="25.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="615918396" Language="SFX">
@@ -35,7 +27,7 @@
 				<Event Id="846923123" Name="StopWaterNoises" ObjectPath="\Events\Default Work Unit\Ambient\StopWaterNoises" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2673071597">
+		<SoundBank Id="1355168291" Language="SFX" Hash="457364797">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -44,7 +36,7 @@
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbe\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2043903978">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2837387358">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -57,7 +49,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Character\Walking\Play_Footsteps" DurationType="OneShot" DurationMin="0.164923" DurationMax="1.027396">
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Character\Ebo\Walking\Play_Footsteps" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.164923" DurationMax="1.027396">
 					<IncludedMemoryFiles>
 						<File Id="68380245" Language="SFX">
 							<ShortName>steenloop 3.wav</ShortName>
@@ -152,7 +144,7 @@
 							<Path>SFX\Water\water step2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{A88ED2AD-C3F7-43BA-B98A-242F4998B08B}</DefaultSwitchValue>
+					<DefaultSwitchValue>{813E1EE3-BAE2-4757-A906-51FADBAE7B24}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{5DCE9101-3BBC-43E2-A5F1-67A4B7398504}">
 							<Media>
@@ -203,43 +195,43 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2296124049" Name="Play_JumpBegin" ObjectPath="\Events\Default Work Unit\Character\Jump\Play_JumpBegin" DurationType="OneShot" DurationMin="0.204832" DurationMax="0.269327">
+				<Event Id="2296124049" Name="Play_JumpBegin" ObjectPath="\Events\Default Work Unit\Character\Ebo\Jump\Play_JumpBegin" DurationType="OneShot" DurationMin="0.204832" DurationMax="0.269327">
 					<IncludedMemoryFiles>
 						<File Id="230689832" Language="SFX">
 							<ShortName>Ebo Jump3.wav</ShortName>
-							<Path>SFX\Ebo Jump3_2FC1C9EA.wem</Path>
+							<Path>SFX\Ebo Jump3_A9009F1B.wem</Path>
 						</File>
 						<File Id="253165710" Language="SFX">
 							<ShortName>Ebo Jump7.wav</ShortName>
-							<Path>SFX\Ebo Jump7_9F56B452.wem</Path>
+							<Path>SFX\Ebo Jump7_F51DC5E1.wem</Path>
 						</File>
 						<File Id="394555763" Language="SFX">
 							<ShortName>Ebo Jump6.wav</ShortName>
-							<Path>SFX\Ebo Jump6_ED682E30.wem</Path>
+							<Path>SFX\Ebo Jump6_F976D542.wem</Path>
 						</File>
 						<File Id="737939361" Language="SFX">
 							<ShortName>Ebo Jump8.wav</ShortName>
-							<Path>SFX\Ebo Jump8_75C17FD7.wem</Path>
+							<Path>SFX\Ebo Jump8_40084D10.wem</Path>
 						</File>
 						<File Id="785779869" Language="SFX">
 							<ShortName>Ebo Jump5.wav</ShortName>
-							<Path>SFX\Ebo Jump5_7B8F4E49.wem</Path>
+							<Path>SFX\Ebo Jump5_FA8037A2.wem</Path>
 						</File>
 						<File Id="789768650" Language="SFX">
 							<ShortName>Ebo Jump4.wav</ShortName>
-							<Path>SFX\Ebo Jump4_0789E79C.wem</Path>
+							<Path>SFX\Ebo Jump4_F87F0863.wem</Path>
 						</File>
 						<File Id="846495192" Language="SFX">
 							<ShortName>Ebo Jump2.wav</ShortName>
-							<Path>SFX\Ebo Jump2_EB52AA38.wem</Path>
+							<Path>SFX\Ebo Jump2_0CE02F74.wem</Path>
 						</File>
 						<File Id="1011805965" Language="SFX">
 							<ShortName>Ebo Jump1.wav</ShortName>
-							<Path>SFX\Ebo Jump1_30338A8C.wem</Path>
+							<Path>SFX\Ebo Jump1_B5E9A882.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Character\Landing\Play_Landing" DurationType="OneShot" DurationMin="0.390875" DurationMax="1.124113">
+				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Character\Ebo\Landing\Play_Landing" DurationType="OneShot" DurationMin="0.390875" DurationMax="1.124113">
 					<IncludedMemoryFiles>
 						<File Id="53791480" Language="SFX">
 							<ShortName>zandloop_03.wav</ShortName>
@@ -366,7 +358,7 @@
 					<IncludedMemoryFiles>
 						<File Id="178899459" Language="SFX">
 							<ShortName>Presure plate1.wav</ShortName>
-							<Path>SFX\Presure plate1_0CD3143B.wem</Path>
+							<Path>SFX\Presure plate1_D155986B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -374,7 +366,7 @@
 					<IncludedMemoryFiles>
 						<File Id="145836393" Language="SFX">
 							<ShortName>Presure plate2.wav</ShortName>
-							<Path>SFX\Presure plate2_889D920B.wem</Path>
+							<Path>SFX\Presure plate2_4A9BFBD9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

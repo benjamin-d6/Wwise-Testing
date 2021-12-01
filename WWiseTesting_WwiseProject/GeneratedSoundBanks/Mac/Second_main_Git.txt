@@ -1,9 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	826353507	PlayAirToneDesertedRoad			\Default Work Unit\Ambient\PlayAirToneDesertedRoad	
 	846923123	StopWaterNoises			\Default Work Unit\Ambient\StopWaterNoises	
 	3419015273	PlayWaterNoises			\Default Work Unit\Ambient\PlayWaterNoises	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	615918396	WaterNoises	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Scotch - loch lochy small quiet waves wavelets ripple lake water movement - LR_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\WaterNoises		44835420
-	787650316	Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR	F:\Wwise-Testing\WWiseTesting_WwiseProject\.cache\Mac\SFX\Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Scotch - air tone quiet nature airy wind presence deserted road loch lochy - LR		50312344
 
